@@ -8,9 +8,9 @@
               mb-10
               font-light
               tracking-wide
-              text-brand-green-800 text-4xl
-              sm:text-lg
-              md:text-xl
+              text-brand-green-800 text-2xl
+              sm:text-2xl
+              md:text-2xl
               xl:text-2xl
             "
           >
@@ -18,7 +18,8 @@
           </h2>
           <p
             class="
-              w-4/5
+              w-full
+              md:w-4/5
               font-light
               text-brand-green-800 text-4xl
               sm:text-4xl
@@ -35,22 +36,30 @@
               mx-auto
               md:mx-0
               mt-20
-              w-1/2
               md:w-auto
               grid
               gap-2
-              grid-cols-1
-              md:grid-cols-2
+              grid-cols-2
+              md:grid-cols-3
               xl:grid-cols-4
             "
           >
             <li
               v-for="client in clientList"
               :key="client.title"
-              class="flex justify-center bg-white py-20 px-10"
+              class="
+                flex
+                justify-center
+                bg-white
+                py-10
+                lg:py-14
+                xl:py-20
+                px-10
+                md:px-16
+              "
             >
               <img
-                class="h-12 lg:h-20 object-contain self-center"
+                class="h-10 md:h-10 lg:h-10 xl:h-14 object-contain self-center"
                 :src="client.img"
                 alt=""
               />
