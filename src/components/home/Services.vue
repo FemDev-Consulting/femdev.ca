@@ -31,26 +31,14 @@
               services:
             </p>
 
-            <ul class="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-y-32 gap-x-16">
+            <ul class="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-2">
               <li
                 v-for="service in services"
                 :key="service.title"
-                class="bg-brand-green-100 p-10 text-center md:text-left"
+                class="bg-white p-10 text-left"
               >
                 <div
-                  class="
-                    flex
-                    items-center
-                    justify-center
-                    h-16
-                    w-16
-                    bg-gradient-to-r
-                    from-brand-green-700
-                    to-brand-green-800
-                    shadow-sm
-                    mx-auto
-                    md:mx-0
-                  "
+                  class="flex items-center justify-start py-5 mx-auto md:mx-0"
                 >
                   <!-- Heroicon name: outline/inbox -->
                   <div v-html="service.svg"></div>
@@ -80,7 +68,7 @@ export default {
     ContentContainer,
   },
   setup() {
-    const serviceSvgClass = 'h-10 w-10 text-white';
+    const serviceSvgClass = 'h-10 w-10 text-brand-green-700';
 
     // Noun project icons:
     // https://thenounproject.com/prosymbols/collection/university-glyph-icons/?i=1989992
