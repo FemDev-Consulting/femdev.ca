@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <div
+      class="max-w-screen-lg xl:max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8"
+    >
+      <slot></slot>
+    </div>
+  </div>
+</template>
