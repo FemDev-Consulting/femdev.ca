@@ -1,0 +1,154 @@
+<template>
+  <div>
+    <div class="bg-none">
+      <content-container>
+        <div class="mb-14 sm:mb-20 xl:mb-8">
+          <div
+            class="
+              w-full
+              py-36
+              flex flex-row flex-nowrap
+              justify-between
+              items-center
+            "
+          >
+            <div class="sm:text-center lg:text-left">
+              <h1
+                class="
+                  tracking-normal
+                  font-light
+                  text-brand-green-800 text-4xl
+                  sm:text-5xl
+                  md:text-6xl
+                  xl:text-7xl
+                  w-3/4
+                "
+              >
+                Passionate about feminist approaches to research, evaluation and
+                analysis.
+              </h1>
+              <!-- Add buttons - but figure out what buttons to add -->
+            </div>
+          </div>
+        </div>
+      </content-container>
+    </div>
+  </div>
+  <div class="relative overflow-hidden z-20" v-if="false">
+    <div class="container">
+      <div class="w-full lg:w-2/3 py-24 md:py-36 lg:ml-10 xl:ml-40">
+        <div class="sm:text-center lg:text-left">
+          <h1
+            class="
+              tracking-normal
+              font-extrabold
+              text-brand-green-800 text-4xl
+              sm:text-5xl
+              md:text-6xl
+              xl:text-7xl
+            "
+          >
+            Passionate about feminist approaches to research, evaluation and
+            analysis.
+          </h1>
+          <!--
+          <p class="mt-3 leading-loose text-base text-brand-green-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-10 md:text-3xl lg:mx-0">
+            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+          </p>
+          -->
+          <div
+            class="
+              mt-5
+              sm:mt-8
+              md:mt-20
+              sm:flex sm:justify-center
+              lg:justify-start
+            "
+          >
+            <div class="">
+              <a
+                href="#contact"
+                class="
+                  rounded-md
+                  shadow
+                  w-full
+                  flex
+                  items-center
+                  justify-center
+                  px-8
+                  py-3
+                  border-2 border-transparent
+                  text-base
+                  font-medium
+                  text-white
+                  bg-brand-green-700
+                  hover:bg-brand-green-700
+                  md:py-4 md:text-lg md:px-10
+                "
+              >
+                Work With Us
+              </a>
+            </div>
+            <div class="mt-3 sm:mt-0 sm:ml-6">
+              <a
+                href="#services"
+                class="
+                  w-full
+                  flex
+                  items-center
+                  justify-center
+                  px-8
+                  py-3
+                  text-base
+                  font-medium
+                  rounded-md
+                  text-brand-green-700
+                  border-2 border-brand-green-700
+                  bg-brand-grseen-100
+                  hover:bg-brand-green-100
+                  md:py-4 md:text-lg md:px-10
+                "
+              >
+                Our Services
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="hidden absolute bottom-0 top-0 right-0 lg:flex items-center w-1/2"
+    >
+      <svg
+        class="
+          transform
+          scale-125
+          xl:scale-105
+          translate-x-1/3
+          2xl:translate-x-1/2
+          w-full
+          fill-current
+          text-brand-pink-600
+        "
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M56.3,-42.2C71.2,-26.2,80.4,-2.9,76,17.6C71.5,38,53.4,55.6,32.9,63.7C12.5,71.8,-10.4,70.4,-28.8,61C-47.3,51.7,-61.4,34.5,-68.1,13.2C-74.8,-8,-74.2,-33.3,-61.6,-48.8C-49,-64.3,-24.5,-70.1,-1.9,-68.6C20.7,-67.1,41.3,-58.3,56.3,-42.2Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import ContentContainer from '../ui/ContentContainer.vue';
+
+export default {
+  components: {
+    ContentContainer,
+  },
+  setup() {},
+};
+</script>

@@ -1,13 +1,33 @@
 <template>
   <div>
-    <p class="text-9xl text-brand-green-600">Home</p>
+    <layout>
+      <home-hero />
+      <home-services />
+      <home-about />
+      <home-clients />
+      <home-contact />
+    </layout>
   </div>
 </template>
 
 <script lang="ts">
 import { useHead } from '@vueuse/head';
+import Layout from '../layouts/Default.vue';
+import HomeHero from '../components/home/Hero.vue';
+import HomeServices from '../components/home/Services.vue';
+import HomeAbout from '../components/home/About.vue';
+import HomeClients from '../components/home/Clients.vue';
+import HomeContact from '../components/home/Contact.vue';
 
 export default {
+  components: {
+    Layout,
+    HomeHero,
+    HomeServices,
+    HomeAbout,
+    HomeClients,
+    HomeContact,
+  },
   setup() {
     setupHeadTags();
   },
