@@ -5,6 +5,21 @@
 
 @layer base {
   body {
-    @apply antialiased font-light;
+    @apply antialiased font-light bg-brand-green-200;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex
+      items-center
+      justify-center
+      px-5
+      py-3
+      border border-transparent
+      text-2xl text-white
+      bg-brand-green-900
+      hover:bg-brand-green-700
+      focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-75;
   }
 }
