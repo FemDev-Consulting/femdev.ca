@@ -1,13 +1,11 @@
 <template>
   <div>
     <default-layout>
-      <main>
-        <div class="mb-44">
-          <content-container>
-            <slot></slot>
-          </content-container>
-        </div>
-      </main>
+      <div class="pb-32">
+        <content-container>
+          <slot></slot>
+        </content-container>
+      </div>
     </default-layout>
   </div>
 </template>
@@ -17,8 +15,6 @@ import ContentContainer from '../components/ui/ContentContainer.vue';
 import DefaultLayout from '../layouts/Default.vue';
 
 export default {
-  // Set the layout to the default
-  // layout: 'default',
   components: {
     DefaultLayout,
     ContentContainer,
