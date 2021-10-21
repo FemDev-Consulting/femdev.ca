@@ -3,38 +3,32 @@
     <h2 class="sr-only">Site header information</h2>
     <div class="bg-none">
       <content-container>
-        <div class="mb-14 sm:mb-20 xl:mb-8">
-          <div
-            class="
-              w-full
-              py-12
-              flex flex-row flex-nowrap
-              justify-between
-              items-center
-            "
-          >
-            <router-link :to="{ path: '/' }">
-              <svg
-                class="h-12 w-auto text-brand-green-800"
-                viewBox="0 0 211 211"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <!-- fill="#F5CFCE" stroke="#DEBBBA" -->
-                <circle cx="105.5" cy="105.5" r="105" class="fill-current" />
-                <rect x="74" y="62" width="71" height="17" fill="white" />
-                <rect x="74" y="103" width="66" height="17" fill="white" />
-                <rect x="74" y="141" width="17" height="17" fill="white" />
-              </svg>
-              <span class="sr-only">FemDev Consulting Home Page</span>
-            </router-link>
+        <div
+          class="
+            w-full
+            py-12
+            flex flex-row flex-nowrap
+            justify-between
+            items-center
+          "
+        >
+          <router-link :to="{ path: '/' }">
+            <svg
+              class="h-12 w-auto text-brand-green-800"
+              viewBox="0 0 211 211"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- fill="#F5CFCE" stroke="#DEBBBA" -->
+              <circle cx="105.5" cy="105.5" r="105" class="fill-current" />
+              <rect x="74" y="62" width="71" height="17" fill="white" />
+              <rect x="74" y="103" width="66" height="17" fill="white" />
+              <rect x="74" y="141" width="17" height="17" fill="white" />
+            </svg>
+            <span class="sr-only">FemDev Consulting Home Page</span>
+          </router-link>
 
-            <img
-              class="ml-5 h-5"
-              src="/images/brand/fd_logo_green.png"
-              alt=""
-            />
-          </div>
+          <img class="ml-5 h-5" src="/images/brand/fd_logo_green.png" alt="" />
         </div>
       </content-container>
     </div>
