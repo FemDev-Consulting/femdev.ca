@@ -1,10 +1,12 @@
 <template>
   <div>
     <div class="bg-brand-green-200">
-      <TheHeader />
-      <TheSkipNav />
-      <slot></slot>
-      <TheFooter />
+      <the-header />
+      <the-skip-nav />
+      <main>
+        <slot></slot>
+      </main>
+      <the-footer />
     </div>
   </div>
 </template>
