@@ -30,94 +30,7 @@
               >. I'll respond within 48 hours, and am currently based in Ottawa,
               Canada.
             </p>
-            <div class="mt-8 max-w-md">
-              <div class="grid grid-cols-1 gap-6">
-                <div>
-                  <label for="full_name" class="block text-gray-700 mb-1"
-                    >Name
-                    <span class="sr-only">(Required field)</span>
-                    <span class="text-gray-600">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="full_name"
-                    id="full_name"
-                    autocomplete="name"
-                    placeholder="Harley Quinn"
-                    required
-                    class="
-                      block
-                      w-full
-                      shadow-sm
-                      py-3
-                      px-4
-                      placeholder-gray-500
-                      focus:ring-brand-green-500 focus:border-brand-green-500
-                      border-gray-500
-                    "
-                  />
-                </div>
-
-                <div>
-                  <label for="email" class="block text-gray-700 mb-2"
-                    >Email
-                    <span class="sr-only">(Required field)</span>
-                    <span class="text-gray-600">*</span>
-                  </label>
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    autocomplete="email"
-                    placeholder="harley.quinn@justiceleague.com"
-                    required
-                    class="
-                      block
-                      w-full
-                      py-3
-                      px-4
-                      placeholder-gray-500
-                      focus:ring-brand-green-500 focus:border-brand-green-500
-                      border-gray-500
-                    "
-                  />
-                </div>
-
-                <div>
-                  <label for="message" class="block text-gray-700 mb-2"
-                    >Message
-                    <span class="sr-only">(Required field)</span>
-                    <span class="text-gray-600">*</span>
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    placeholder="How can we help?"
-                    required
-                    class="
-                      block
-                      w-full
-                      py-3
-                      px-4
-                      placeholder-gray-500
-                      focus:ring-brand-green-500 focus:border-brand-green-500
-                      border-gray-500
-                    "
-                  ></textarea>
-                </div>
-
-                <div class="block">
-                  <div class="">
-                    <div>
-                      <button type="submit" class="btn-primary">
-                        Send email
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <contact-form />
           </section>
         </div>
         <!-- Information display -->
@@ -248,12 +161,14 @@
 
 <script lang="ts">
 import PageLayout from '../layouts/Page.vue';
+import ContactForm from '../components/contact/Form.vue';
 import ContentPageHeading from '../components/ui/ContentPageHeading.vue';
 import { useHead } from '@vueuse/head';
 
 export default {
   components: {
     PageLayout,
+    ContactForm,
     ContentPageHeading,
   },
   setup() {
