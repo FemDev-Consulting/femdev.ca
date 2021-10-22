@@ -259,7 +259,7 @@ export default {
     // Stateful flags
     const isSubmitHitOnce = ref(false);
     const isTryingToSending = ref(false);
-    const isMessageSent = ref(true);
+    const isMessageSent = ref(false);
 
     // Form data
     const name = ref('');
