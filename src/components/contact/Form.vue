@@ -88,7 +88,7 @@
           </div>
         </div>
       </div>
-      <form novalidate @submit.prevent="handleSubmit">
+      <form @submit.prevent="handleSubmit">
         <div class="mb-5">
           <label for="full_name" class="block text-gray-700 mb-1"
             >Name
