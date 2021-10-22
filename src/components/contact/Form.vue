@@ -378,10 +378,13 @@ export default {
         isTryingToSending.value = true;
 
         // Send the data over to the form processor
+        // The form-name attribute is required by netlify to process
+        // the form correctly
         axios({
           method: 'POST',
           url: '/',
           data: encode({
+            'form-name': 'femdev-contact-form',
             name: name.value,
             email: email.value,
             message: message.value,
