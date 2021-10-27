@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="bg-none">
+    <div class="bg-brand-green-50">
       <content-container>
-        <div class="my-52">
+        <div class="py-40">
           <section>
             <h2
               class="

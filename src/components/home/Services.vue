@@ -1,59 +1,86 @@
 <template>
   <div>
-    <div class="bg-none">
+    <div class="bg-brand-green-50">
       <content-container>
-        <div class="my-52">
-          <section>
-            <h2
-              class="
-                mb-10
-                font-light
-                tracking-wide
-                text-brand-green-800 text-4xl
-                sm:text-lg
-                md:text-xl
-                xl:text-2xl
-              "
-            >
-              Services
-            </h2>
-            <p
-              class="
-                w-4/5
-                font-light
-                text-brand-green-800 text-4xl
-                sm:text-4xl
-                md:text-5xl
-                xl:text-6xl
-              "
-            >
-              We partner with organizations to provide the following types of
-              services:
-            </p>
-
-            <ul class="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-2">
-              <li
-                v-for="service in services"
-                :key="service.title"
-                class="bg-white p-10 text-left"
+        <div class="my-0 border-b-2 border-brand-green-700">
+          <div class="w-full py-32 md:py-30">
+            <section>
+              <h2
+                class="
+                  mb-2
+                  tracking-wide
+                  text-brand-green-800 text-2xl
+                  sm:text-lg
+                  md:text-xl
+                  xl:text-2xl
+                "
               >
-                <div
-                  class="flex items-center justify-start py-5 mx-auto md:mx-0"
+                Services
+              </h2>
+              <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
+              <p
+                class="
+                  w-4/5
+                  text-brand-green-800 text-4xl
+                  sm:text-4xl
+                  md:text-5xl
+                  xl:text-6xl
+                "
+              >
+                We partner with organizations and governments to provide the
+                following types of services:
+              </p>
+
+              <ul
+                class="
+                  mt-16
+                  grid grid-cols-1
+                  md:grid-cols-3
+                  gap-y-2
+                  md:gap-x-10
+                  lg:gap-x-20
+                "
+              >
+                <li
+                  v-for="service in services"
+                  :key="service.title"
+                  class="
+                    bg-brand-green-50
+                    py-10
+                    pr-20
+                    md:pr-0
+                    text-left
+                    rounded-md
+                  "
                 >
-                  <!-- Heroicon name: outline/inbox -->
-                  <div v-html="service.svg"></div>
-                </div>
+                  <div
+                    class="
+                      flex
+                      items-center
+                      justify-start
+                      pl-0
+                      pt-5
+                      pb-5
+                      pr-5
+                      mx-auto
+                      md:mx-0
+                    "
+                  >
+                    <!-- Heroicon name: outline/inbox -->
+                    <div v-html="service.svg"></div>
+                  </div>
 
-                <h3 class="mt-6 text-2xl font-medium text-brand-green-700">
-                  {{ service.title }}
-                </h3>
+                  <h3 class="mt-6 text-2xl font-medium text-brand-green-700">
+                    {{ service.title }}
+                  </h3>
 
-                <p class="mt-2 text-lg md:text-xl text-gray-600">
-                  {{ service.description }}
-                </p>
-              </li>
-            </ul>
-          </section>
+                  <p class="mt-2 text-lg md:text-xl text-gray-600">
+                    {{ service.description }}
+                  </p>
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
       </content-container>
     </div>
@@ -68,7 +95,7 @@ export default {
     ContentContainer,
   },
   setup() {
-    const serviceSvgClass = 'h-10 w-10 text-brand-green-700';
+    const serviceSvgClass = 'h-16 w-16 text-brand-green-800';
 
     // Noun project icons:
     // https://thenounproject.com/prosymbols/collection/university-glyph-icons/?i=1989992
@@ -79,7 +106,7 @@ export default {
           `,
         title: 'Research',
         description:
-          'Design and facilitation of research on gender equality and women’s rights',
+          'Conducting research on gender equality and women’s rights issues using feminist methodology and methods',
       },
       {
         svg: `
@@ -89,7 +116,7 @@ export default {
           `,
         title: 'Evaluation',
         description:
-          'Evaluation of development programs, including the design of instruments and indicators',
+          'Evaluating development initiatives, including the design of instruments and indicators',
       },
       {
         svg: `
@@ -99,7 +126,7 @@ export default {
           `,
         title: 'Analysis',
         description:
-          'Evidence reviews and landscaping analysis of development issues, programs and trends',
+          'Conducting literature reviews, evidence reviews and landscape analyses of contemporary development issues, policies and trends',
       },
       {
         svg: `
@@ -107,9 +134,9 @@ export default {
            <g><g i:extraneous="self"><g><path d="M84.1,3.5c-0.9-1.2-2.6-1.4-3.8-0.4s-1.4,2.6-0.4,3.8c11,13.8,11,33.7,0,47.5c-0.9,1.2-0.7,2.9,0.4,3.8     c0.5,0.4,1.1,0.6,1.7,0.6c0.8,0,1.6-0.3,2.1-1C96.7,42,96.6,19.2,84.1,3.5z"></path><path d="M67.5,13.2c-1.2,0.9-1.4,2.6-0.4,3.8c6.3,7.9,6.3,19.4,0,27.3c-0.9,1.2-0.7,2.9,0.4,3.8c0.5,0.4,1.1,0.6,1.7,0.6     c0.8,0,1.6-0.3,2.1-1c7.8-9.9,7.8-24.2,0-34C70.4,12.4,68.7,12.3,67.5,13.2z"></path><path d="M19.7,3.1c-1.2-0.9-2.9-0.7-3.8,0.4C3.4,19.2,3.4,42,15.9,57.8c0.5,0.7,1.3,1,2.1,1c0.6,0,1.2-0.2,1.7-0.6     c1.2-0.9,1.4-2.6,0.4-3.8c-11-13.8-11-33.7,0-47.5C21.1,5.7,20.9,4,19.7,3.1z"></path><path d="M32.5,48.1c1.2-0.9,1.4-2.6,0.4-3.8c-6.3-7.9-6.3-19.3,0-27.2c0.9-1.2,0.7-2.9-0.4-3.8c-1.2-0.9-2.9-0.7-3.8,0.4     c-7.8,9.8-7.8,24.1,0,34c0.5,0.7,1.3,1,2.1,1C31.4,48.6,32,48.4,32.5,48.1z"></path><path d="M55.4,39.9c3.2-1.9,5.3-5.3,5.3-9.3c0-5.9-4.8-10.7-10.7-10.7c-5.9,0-10.8,4.9-10.8,10.7c0,4,2.2,7.4,5.4,9.3L29.4,94.1     c-0.4,1.4,0.5,2.9,1.9,3.3c0.2,0.1,0.4,0.1,0.7,0.1c1.2,0,2.3-0.8,2.6-1.9l2.3-8.1h26.3l2.3,8.1c0.3,1.2,1.4,1.9,2.6,1.9     c0.2,0,0.5,0,0.7-0.1c1.4-0.4,2.3-1.9,1.9-3.3L55.4,39.9z M50.1,25.3c2.9,0,5.3,2.4,5.3,5.3c0,3-2.4,5.4-5.3,5.4     c-3,0-5.4-2.4-5.4-5.4C44.7,27.7,47.2,25.3,50.1,25.3z M49.8,41.4c0.1,0,0.2,0,0.3,0c0,0,0.1,0,0.1,0l6.5,23.1H43.3L49.8,41.4z      M38.4,82.1l3.5-12.3h16.4l3.4,12.3H38.4z"></path></g></g></g>
           </svg>
           `,
-        title: 'Knowledge translation',
+        title: 'Advocacy',
         description:
-          'Translating technical data and evidence into alternative knowledge products',
+          'Using evidence to engage governments, donors and development agencies and advocate for social, institutional and policy change',
       },
       {
         svg: `
@@ -117,9 +144,9 @@ export default {
             <g><g><g><path d="M4.9,48.7c0-2.9,2.4-5.3,5.3-5.3s5.3,2.4,5.3,5.3c0,2.9-2.4,5.3-5.3,5.3S4.9,51.7,4.9,48.7z"></path><path d="M19.4,60.7V64c0,0.5-0.4,1-1,1H2c-0.5,0-1-0.4-1-1v-3.3c0-2.9,2.3-5.2,5.2-5.2h8     C17.1,55.5,19.4,57.8,19.4,60.7z"></path><path d="M44.2,59.9V64c0,0.5-0.4,1-1,1H22.8c-0.5,0-1-0.4-1-1v-4.1c0-3.4,2.8-6.2,6.2-6.2H38     C41.4,53.7,44.2,56.5,44.2,59.9z"></path><path d="M26.6,45.1c0-3.5,2.9-6.4,6.4-6.4s6.4,2.9,6.4,6.4s-2.9,6.4-6.4,6.4S26.6,48.6,26.6,45.1z"></path><path d="M65,60.7V64c0,0.5-0.4,1-1,1H47.5c-0.5,0-1-0.4-1-1v-3.3c0-2.9,2.3-5.2,5.2-5.2h8     C62.7,55.5,65,57.8,65,60.7z"></path><path d="M50.5,48.7c0-2.9,2.4-5.3,5.3-5.3c2.9,0,5.3,2.4,5.3,5.3c0,2.9-2.4,5.3-5.3,5.3     C52.8,54.1,50.5,51.7,50.5,48.7z"></path></g></g><g><path d="M60.1,4.4c0,1.9-1.5,3.4-3.4,3.4H9.3c-1.9,0-3.4-1.5-3.4-3.4S7.4,1,9.3,1h47.4C58.6,1,60.1,2.5,60.1,4.4z    "></path></g><path d="M10.1,9.8v22.7c0,2.2,1.8,3.9,3.9,3.9h38c2.2,0,3.9-1.8,3.9-3.9V9.8H10.1z M49.4,20.7c0,0.5-0.4,1-1,1   c-0.5,0-1-0.4-1-1v-2.8l-8,8c-0.4,0.4-1,0.4-1.4,0L35,22.9l-5.3,5.3c-0.4,0.4-1,0.4-1.4,0l-3.5-3.5l-6.5,6.5c-0.4,0.4-1,0.4-1.4,0   s-0.4-1,0-1.4l7.2-7.2c0.4-0.4,1-0.4,1.4,0l3.5,3.5l5.3-5.3c0.4-0.4,1-0.4,1.4,0l3.1,3.1l7.3-7.3h-2.8c-0.5,0-1-0.4-1-1   c0-0.5,0.4-1,1-1h5.1c0.5,0,1,0.4,1,1c0,0,0,0,0,0V20.7z"></path></g>
           </svg>
           `,
-        title: 'Event facilitation',
+        title: 'Knowledge mobilization',
         description:
-          'Facilitation of training seminars, workshops, and public learning events',
+          'Translating technical data and evidence into innovative knowledge and communications products (e.g., podcasts, policy briefs, videos, slide decks, etc.)',
       },
       {
         svg: `
@@ -127,18 +154,9 @@ export default {
             <g><path d="M64.7,23.5L42.5,1.3C42.3,1.1,42,1,41.7,1c-0.3,0-0.6,0.2-0.7,0.5l-8.6,15.1l17.1,17.1L64.5,25   c0.3-0.1,0.5-0.4,0.5-0.7C65,24,64.9,23.7,64.7,23.5z"></path><path d="M21,42.9c-0.6,0.6-0.6,1.5,0,2.1c0.6,0.6,1.5,0.6,2.1,0c0.3-0.3,0.4-0.6,0.4-1C23.5,42.7,21.9,42,21,42.9z   "></path><path d="M30.6,17.7c-0.4-0.4-1-0.4-1.4,0c-1.1,1.1-1.7,2.6-1.7,4.2c0,0.7,0.1,1.3,0.3,1.9l-16.2,4   c-0.3,0.1-0.6,0.3-0.7,0.7L1,63.7c-0.1,0.3,0,0.7,0.3,1C1.5,64.9,1.7,65,2,65c0.1,0,0.2,0,0.3,0l35.2-9.8c0.3-0.1,0.6-0.4,0.7-0.7   l4-16.2c0.6,0.2,1.2,0.3,1.9,0.3c1.5,0,3-0.6,4.2-1.7c0.4-0.4,0.4-1,0-1.4L30.6,17.7z M20.4,47l-9.7,9.7c-0.4,0.4-1,0.4-1.4,0   c-0.4-0.4-0.4-1,0-1.4l9.7-9.7c-1.9-3.5,2.7-6.8,5.5-4.1C27.2,44.3,23.9,48.9,20.4,47z"></path></g>
           </svg>
           `,
-        title: 'Proposal development',
-        description: 'Project and grant proposal development',
-      },
-      {
-        svg: `
-          <svg class="${serviceSvgClass}" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 66 66" stroke="none" aria-hidden="true">
-            <g><path d="M54.2,34c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h3C56.7,19.4,46.6,9.3,34,8.8v3c0,0.6-0.4,1-1,1s-1-0.4-1-1v-3   C19.4,9.3,9.3,19.4,8.8,32h3c0.6,0,1,0.4,1,1c0,0.6-0.4,1-1,1h-3C9.3,46.6,19.4,56.7,32,57.2v-3c0-0.6,0.4-1,1-1s1,0.4,1,1v3   C46.6,56.7,56.7,46.6,57.2,34H54.2z M43.8,23.6l-7.2,12.6c-0.1,0.2-0.2,0.3-0.4,0.4l-12.6,7.2c-0.4,0.2-0.9,0.2-1.2-0.2   c-0.3-0.3-0.4-0.8-0.2-1.2l7.2-12.6c0.1-0.2,0.2-0.3,0.4-0.4l12.6-7.2c0.4-0.2,0.9-0.2,1.2,0.2C43.9,22.7,44,23.2,43.8,23.6z"></path><path d="M33,1C15.4,1,1,15.4,1,33c0,17.7,14.3,32,32,32c17.6,0,32-14.3,32-32C65,15.4,50.6,1,33,1z M33,59.3   L33,59.3L33,59.3L33,59.3C18.5,59.3,6.7,47.5,6.7,33S18.5,6.7,33,6.7S59.3,18.5,59.3,33C59.3,47.5,47.5,59.3,33,59.3z"></path><path d="M25.8,40.2L35,35l5.3-9.2L31,31L25.8,40.2z M32.3,32.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4   c-0.4,0.4-1,0.4-1.4,0C31.9,33.3,31.9,32.7,32.3,32.3z"></path></g>
-          </svg>
-          `,
-        title: 'Strategic planning',
+        title: 'Event facilitation',
         description:
-          'Organizational strategic planning, evaluation and learning',
+          'Facilitating in-person and online events, trainings and workshops that are accessible, engaging and interactive for participants',
       },
     ];
 

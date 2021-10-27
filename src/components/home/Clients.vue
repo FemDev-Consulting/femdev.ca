@@ -1,72 +1,82 @@
 <template>
   <div>
-    <div class="py-40">
+    <div class="bg-brand-green-50">
       <content-container>
-        <section>
-          <h2
-            class="
-              mb-10
-              font-light
-              tracking-wide
-              text-brand-green-800 text-2xl
-              sm:text-2xl
-              md:text-2xl
-              xl:text-2xl
-            "
-          >
-            Who we work with
-          </h2>
-          <p
-            class="
-              w-full
-              md:w-4/5
-              font-light
-              text-brand-green-800 text-4xl
-              sm:text-4xl
-              md:text-5xl
-              xl:text-6xl
-            "
-          >
-            We are proud to partner with organizations that are committed to
-            advancing gender equality, social justice and human rights.
-          </p>
+        <div class="my-0 border-b-2 border-brand-green-700">
+          <div class="w-full py-32 md:py-30">
+            <section>
+              <h2
+                class="
+                  mb-2
+                  tracking-wide
+                  text-brand-green-800 text-2xl
+                  sm:text-lg
+                  md:text-xl
+                  xl:text-2xl
+                "
+              >
+                Who we work with
+              </h2>
+              <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
 
-          <ul
-            class="
-              mx-auto
-              md:mx-0
-              mt-20
-              md:w-auto
-              grid
-              gap-2
-              grid-cols-2
-              md:grid-cols-3
-              xl:grid-cols-4
-            "
-          >
-            <li
-              v-for="client in clientList"
-              :key="client.title"
-              class="
-                flex
-                justify-center
-                bg-white
-                py-10
-                lg:py-14
-                xl:py-20
-                px-10
-                md:px-16
-              "
-            >
-              <img
-                class="h-10 md:h-10 lg:h-10 xl:h-14 object-contain self-center"
-                :src="client.img"
-                alt=""
-              />
-              <span class="sr-only">{{ client.title }}</span>
-            </li>
-          </ul>
-        </section>
+              <p
+                class="
+                  w-4/5
+                  text-brand-green-800 text-4xl
+                  sm:text-4xl
+                  md:text-5xl
+                  xl:text-6xl
+                "
+              >
+                We are proud to partner with organizations that are committed to
+                advancing gender equality, social justice and human rights.
+              </p>
+
+              <ul
+                class="
+                  mx-auto
+                  md:mx-0
+                  mt-20
+                  md:w-auto
+                  grid
+                  gap-2
+                  grid-cols-2
+                  md:grid-cols-3
+                  xl:grid-cols-4
+                "
+              >
+                <li
+                  v-for="client in clientList"
+                  :key="client.title"
+                  class="
+                    flex
+                    justify-center
+                    bg-white
+                    py-10
+                    lg:py-14
+                    xl:py-20
+                    px-10
+                    md:px-16
+                  "
+                >
+                  <img
+                    class="
+                      h-10
+                      md:h-10
+                      lg:h-10
+                      xl:h-14
+                      object-contain
+                      self-center
+                    "
+                    :src="client.img"
+                    alt=""
+                  />
+                  <span class="sr-only">{{ client.title }}</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
       </content-container>
     </div>
   </div>

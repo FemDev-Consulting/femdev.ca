@@ -1,31 +1,59 @@
 <template>
   <div>
-    <div class="bg-none">
+    <div class="bg-brand-green-50">
       <content-container>
-        <div class="mb-14 sm:mb-20 xl:mb-8">
+        <div class="my-0 border-b-2 border-brand-green-700">
+          <div class="w-full py-32 md:py-36 lg:py-44">
+            <div class="flex flex-row flex-nowrap justify-start">
+              <h1
+                class="
+                  w-5/6
+                  md:w-5/6
+                  xl:w-5/6
+                  tracking-normal
+                  font-light
+                  text-brand-green-800 text-5xl
+                  sm:text-5xl
+                  md:text-7xl
+                  xl:text-8xl
+                "
+              >
+                Passionate about
+                <span class="text-brand-pink-900">feminist</span>
+                approaches to research, evaluation and analysis.
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="mt-0 mb-0 md:mb-20 md:mt-4 xl:mt-0 xl:mb-8" v-if="false">
           <div
             class="
               w-full
-              py-36
+              pt-32
+              pb-10
+              md:py-36
               flex flex-row flex-nowrap
               justify-between
               items-center
             "
           >
-            <div class="sm:text-center lg:text-left">
+            <div class="text-left">
               <h1
                 class="
+                  w-full
+                  md:w-5/6
+                  xl:w-5/6
                   tracking-normal
                   font-light
-                  text-brand-green-800 text-4xl
+                  text-brand-green-800 text-5xl
                   sm:text-5xl
-                  md:text-6xl
-                  xl:text-7xl
-                  w-3/4
+                  md:text-7xl
+                  xl:text-8xl
                 "
               >
-                Passionate about feminist approaches to research, evaluation and
-                analysis.
+                Passionate about
+                <span class="text-brand-pink-900">feminist</span>
+                approaches to research, evaluation and analysis.
               </h1>
               <!-- Add buttons - but figure out what buttons to add -->
             </div>
