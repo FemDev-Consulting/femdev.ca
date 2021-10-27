@@ -37,11 +37,22 @@
           </section>
         </div>
         <!-- Information display -->
-        <div class="order-1 md:order-2 w-full md:w-2/5 p-20 self-center">
+        <div
+          class="
+            order-1
+            md:order-2
+            w-full
+            md:w-2/5
+            pb-20
+            md:p-10
+            lg:p-20
+            self-center
+          "
+        >
           <section>
             <h2 class="sr-only">Contact details</h2>
 
-            <p class="mt-10 text-xl text-gray-700 max-w-prose">
+            <p class="mt-10 text-xl text-brand-green-800 max-w-prose">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt
             </p>
@@ -49,7 +60,7 @@
             <dl class="mt-8 text-base text-gray-500">
               <div class="mt-6">
                 <dt class="sr-only">Twitter</dt>
-                <dd class="flex">
+                <dd class="flex justify-start items-center">
                   <!-- Heroicon name: outline/phone -->
                   <div class="border-2 border-gray-800 rounded-md p-1">
                     <svg
@@ -73,9 +84,9 @@
                   </a>
                 </dd>
               </div>
-              <div class="mt-3">
+              <div class="mt-6">
                 <dt class="sr-only">LinkedIn</dt>
-                <dd class="flex">
+                <dd class="flex justify-start items-center">
                   <!-- Heroicon name: linkedIn -->
                   <div class="border-2 border-gray-800 rounded-md p-1">
                     <svg
@@ -107,9 +118,9 @@
                   </a>
                 </dd>
               </div>
-              <div class="mt-3">
+              <div class="mt-6">
                 <dt class="sr-only">Email</dt>
-                <dd class="flex">
+                <dd class="flex justify-start items-center">
                   <!-- Heroicon name: outline/mail -->
                   <div class="border-2 border-gray-800 rounded-md p-3">
                     <svg
