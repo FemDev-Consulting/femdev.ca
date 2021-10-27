@@ -50,9 +50,12 @@
           </div>
           <div class="">
             <section>
-              <h3 class="mb-2 text-brand-green-300 text-3xl font-light">
-                Contact us
-              </h3>
+              <h3 class="sr-only">Contact Information</h3>
+              <router-link
+                :to="{ name: 'contact' }"
+                class="mb-2 text-brand-green-300 text-3xl font-light"
+                >Contact us <span class="sr-only">page</span></router-link
+              >
               <dl>
                 <dt class="sr-only">Email</dt>
                 <dd class="mb-1">
