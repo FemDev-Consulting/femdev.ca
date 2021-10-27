@@ -45,33 +45,31 @@
                   xl:grid-cols-4
                 "
               >
-                <li
-                  v-for="client in clientList"
-                  :key="client.title"
-                  class="
-                    flex
-                    justify-center
-                    bg-white
-                    py-10
-                    lg:py-14
-                    xl:py-20
-                    px-10
-                    md:px-16
-                  "
-                >
-                  <img
+                <li v-for="client in clientList" :key="client.title" class="">
+                  <a
+                    :href="client.href"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     class="
-                      h-10
-                      md:h-10
-                      lg:h-10
-                      xl:h-14
-                      object-contain
+                      flex
+                      justify-center
+                      bg-white
+                      py-10
+                      lg:py-14
+                      xl:py-20
+                      px-10
+                      md:px-16
+                      w-full
                       self-center
                     "
-                    :src="client.img"
-                    alt=""
-                  />
-                  <span class="sr-only">{{ client.title }}</span>
+                  >
+                    <img
+                      class="h-10 md:h-10 lg:h-10 xl:h-14 object-contain"
+                      :src="client.img"
+                      alt=""
+                    />
+                    <span class="sr-only">{{ client.title }}</span>
+                  </a>
                 </li>
               </ul>
             </section>
@@ -102,34 +100,42 @@ function useFemDevClients() {
     {
       img: '/images/clients/bill-and-melinda-gates-foundation.jpg',
       title: 'Bill-and-melinda-gates-foundation.jpg',
+      href: '#',
     },
     {
       img: '/images/clients/data2x.png',
       title: 'data2x.jpg',
+      href: '#',
     },
     {
       img: '/images/clients/global-affairs-canada.jpg',
       title: 'global-affairs-canada.jpg',
+      href: 'https://canada.ca/en',
     },
     {
       img: '/images/clients/idrc.png',
       title: 'idrc.png',
+      href: '#',
     },
     {
       img: '/images/clients/islamic-relief-canada.png',
       title: 'islamic-relief-canada.png',
+      href: '#',
     },
     {
       img: '/images/clients/malala-fund.png',
       title: 'malala-fund.png',
+      href: '#',
     },
     {
       img: '/images/clients/oxfam-canada.png',
       title: 'oxfam-canada.png',
+      href: '#',
     },
     {
       img: '/images/clients/urban-institute.jpg',
       title: 'urban-institute.jpg',
+      href: '#',
     },
   ];
 
