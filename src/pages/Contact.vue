@@ -9,16 +9,19 @@
         </template>
       </content-page-heading>
 
-      <div class="flex flex-row align-middle justify-center">
+      <div class="flex flex-row flex-wrap align-middle justify-center">
         <!-- Form -->
         <div
           class="
-            w-3/5
+            order-2
+            md:order-1
+            w-full
+            md:w-3/5
             px-10
             py-16
-            bg-white
-            shadow-2xl
-            border-t-8 border-brand-green-700
+            bg-brand-green-200
+            rounded-md
+            border-4 border-brand-green-200
           "
         >
           <section>
@@ -34,11 +37,11 @@
           </section>
         </div>
         <!-- Information display -->
-        <div class="w-2/5 p-20 self-center">
+        <div class="order-1 md:order-2 w-full md:w-2/5 p-20 self-center">
           <section>
             <h2 class="sr-only">Contact details</h2>
 
-            <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose">
+            <p class="mt-10 text-xl text-gray-700 max-w-prose">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt
             </p>
@@ -48,7 +51,7 @@
                 <dt class="sr-only">Twitter</dt>
                 <dd class="flex">
                   <!-- Heroicon name: outline/phone -->
-                  <div class="border-4 border-gray-800 p-1">
+                  <div class="border-2 border-gray-800 rounded-md p-1">
                     <svg
                       class="h-12 w-12 fill-current text-gray-800"
                       viewBox="0 0 100 100"
@@ -74,7 +77,7 @@
                 <dt class="sr-only">LinkedIn</dt>
                 <dd class="flex">
                   <!-- Heroicon name: linkedIn -->
-                  <div class="border-4 border-gray-800 p-1">
+                  <div class="border-2 border-gray-800 rounded-md p-1">
                     <svg
                       class="h-12 w-12 fill-current text-gray-800"
                       fill="#000000"
@@ -108,7 +111,7 @@
                 <dt class="sr-only">Email</dt>
                 <dd class="flex">
                   <!-- Heroicon name: outline/mail -->
-                  <div class="border-4 border-gray-800 p-3">
+                  <div class="border-2 border-gray-800 rounded-md p-3">
                     <svg
                       class="w-8 h-8 fill-current text-gray-800"
                       xmlns:dc="http://purl.org/dc/elements/1.1/"
