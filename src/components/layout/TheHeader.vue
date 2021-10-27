@@ -1,12 +1,13 @@
 <template>
   <header>
     <h2 class="sr-only">Site header information</h2>
-    <div class="bg-none">
+    <div class="bg-brand-green-50">
       <content-container>
         <div
           class="
             w-full
-            py-12
+            py-5
+            md:py-12
             flex flex-row flex-nowrap
             justify-between
             items-center
