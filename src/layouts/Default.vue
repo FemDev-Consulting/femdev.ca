@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-brand-green-200">
+    <div>
       <the-header />
       <the-skip-nav />
       <main>
