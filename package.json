@@ -2,29 +2,29 @@
   "name": "femdevconsulting.ca",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
     "@vueuse/head": "~0.6.0",
-    "axios": "^0.23.0",
-    "vue": "^3.2.16",
+    "axios": "^0.24.0",
+    "vue": "^3.2.20",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.3.4",
     "@vitejs/plugin-vue": "^1.9.3",
     "autoprefixer": "^10.3.7",
-    "eslint": "^8.0.1",
+    "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^7.18.0",
-    "postcss": "^8.3.10",
+    "eslint-plugin-vue": "^7.20.0",
+    "postcss": "^8.3.11",
     "prettier": "^2.4.1",
     "tailwindcss": "^2.2.17",
     "typescript": "^4.4.3",
-    "vite": "^2.6.4",
+    "vite": "^2.6.11",
     "vue-tsc": "^0.3.0"
   }
 }
