@@ -52,7 +52,7 @@
           <section>
             <h2 class="sr-only">Contact details</h2>
 
-            <p class="mt-10 text-xl text-brand-green-800 max-w-prose">
+            <p class="text-xl text-brand-green-800 max-w-prose">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt
             </p>
