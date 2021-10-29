@@ -99,42 +99,62 @@ function useFemDevClients() {
   const clients = [
     {
       img: '/images/clients/bill-and-melinda-gates-foundation.jpg',
-      title: 'Bill-and-melinda-gates-foundation.jpg',
+      title: 'Bill & Melinda Gates Foundation',
       href: '#',
     },
     {
       img: '/images/clients/data2x.png',
-      title: 'data2x.jpg',
+      title: 'Data2X',
+      href: '#',
+    },
+    {
+      img: '/images/clients/placeholder.png',
+      title: 'Donor Committee for Enterprise Development',
+      href: '#',
+    },
+    {
+      img: '/images/clients/placeholder.png',
+      title: 'Fundación Capital',
       href: '#',
     },
     {
       img: '/images/clients/global-affairs-canada.jpg',
-      title: 'global-affairs-canada.jpg',
+      title: 'Global Affairs Canada',
       href: 'https://canada.ca/en',
     },
     {
+      img: '/images/clients/placeholder.png',
+      title: 'Gesellschaft für Internationale Zusammenarbeit',
+      href: '#',
+    },
+    {
       img: '/images/clients/idrc.png',
-      title: 'idrc.png',
+      title: 'International Development Research Centre',
       href: '#',
     },
     {
       img: '/images/clients/islamic-relief-canada.png',
-      title: 'islamic-relief-canada.png',
+      title: 'Islamic Relief Canada',
       href: '#',
     },
     {
       img: '/images/clients/malala-fund.png',
-      title: 'malala-fund.png',
+      title: 'Malala Fund',
       href: '#',
     },
     {
       img: '/images/clients/oxfam-canada.png',
-      title: 'oxfam-canada.png',
+      title: 'Oxfam Canada',
+      href: '#',
+    },
+    {
+      img: '/images/clients/placeholder.png',
+      title: 'United Nations Foundation',
       href: '#',
     },
     {
       img: '/images/clients/urban-institute.jpg',
-      title: 'urban-institute.jpg',
+      title: 'Urban Institute',
       href: '#',
     },
   ];
