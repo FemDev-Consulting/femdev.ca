@@ -90,8 +90,8 @@
       </div>
       <form @submit.prevent="handleSubmit">
         <div class="mb-5">
-          <label for="full_name" class="block text-gray-700 mb-1"
-            >Name
+          <label for="full_name" class="block text-gray-700 mb-1">
+            Preferred name
             <span class="sr-only">(Required field)</span>
             <span class="text-gray-600">*</span>
           </label>
@@ -141,6 +141,43 @@
             autocomplete="email"
             placeholder="harley.quinn@justiceleague.com"
             required
+            class="
+              block
+              w-full
+              py-3
+              px-4
+              placeholder-gray-500
+              focus:ring-brand-green-500 focus:border-brand-green-500
+              border-gray-500
+            "
+          />
+          <div
+            v-if="Array.isArray(emailError) && emailError.length"
+            class="mt-1"
+          >
+            <ul>
+              <li
+                v-for="error in emailError"
+                :key="error"
+                class="text-xs text-red-800 list-none"
+              >
+                {{ error }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label for="organization" class="block text-gray-700 mb-2">
+            Organization
+          </label>
+          <input
+            v-model="organization"
+            id="organization"
+            name="organization"
+            type="text"
+            autocomplete="organization"
+            placeholder="Suicide Squad"
             class="
               block
               w-full
@@ -264,6 +301,7 @@ export default {
     // Form data
     const name = ref('');
     const email = ref('');
+    const organization = ref('');
     const message = ref('');
 
     // Error tracking
@@ -369,9 +407,6 @@ export default {
       // Validate the input which will clear the errors first
       validateFormData();
 
-      console.log('Handle Submit', email.value, message.value, name.value);
-      console.log('Errors', nameError.value);
-
       // Only try if there are no validation errors
       if (!hasFormErrors()) {
         // Set the trying flag
@@ -387,6 +422,7 @@ export default {
             'form-name': 'femdev-contact-form',
             name: name.value,
             email: email.value,
+            organization: organization.value,
             message: message.value,
           }),
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -439,6 +475,7 @@ export default {
 
       name,
       email,
+      organization,
       message,
 
       nameError,
