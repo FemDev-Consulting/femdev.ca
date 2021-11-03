@@ -63,7 +63,29 @@
                     class="text-brand-green-400 text-2xl font-light"
                     href="mailto:hello@femdev.ca"
                   >
-                    hello@femdev.ca
+                    Email <span class="sr-only">hello@femdev.ca</span>
+                  </a>
+                </dd>
+                <dt class="sr-only">Twitter account name</dt>
+                <dd class="mb-1">
+                  <a
+                    class="text-brand-green-400 text-2xl font-light"
+                    href="https://twitter.com/feminist_dev?lang=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Twitter <span class="sr-only">@Feminist_Dev</span>
+                  </a>
+                </dd>
+                <dt class="sr-only">LinkedIn account name</dt>
+                <dd class="mb-1">
+                  <a
+                    class="text-brand-green-400 text-2xl font-light"
+                    target="_blank"
+                    href="https://www.linkedin.com/company/femdev-consulting"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn <span class="sr-only">femdev-consulting</span>
                   </a>
                 </dd>
               </dl>
