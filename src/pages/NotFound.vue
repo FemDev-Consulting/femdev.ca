@@ -1,13 +1,23 @@
 <template>
   <div>
-    <p>Not Found</p>
+    <layout>
+      <content-container>
+        <p>Not Found</p>
+      </content-container>
+    </layout>
   </div>
 </template>
 
 <script lang="ts">
+import Layout from '../layouts/Default.vue';
+import ContentContainer from '../components/ui/ContentContainer.vue';
 import { useHead } from '@vueuse/head';
 
 export default {
+  components: {
+    ContentContainer,
+    Layout,
+  },
   setup() {
     setupHeadTags();
   },
