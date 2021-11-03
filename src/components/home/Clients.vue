@@ -29,7 +29,7 @@
                 "
               >
                 We are proud to partner with organizations that are committed to
-                advancing gender equality, social justice and human rights.
+                advancing gender equality and social justice
               </p>
 
               <ul
@@ -45,7 +45,7 @@
                   xl:grid-cols-4
                 "
               >
-                <li v-for="client in clientList" :key="client.title" class="">
+                <li v-for="client in clientList" :key="client.title">
                   <a
                     :href="client.href"
                     target="_blank"
@@ -100,62 +100,62 @@ function useFemDevClients() {
     {
       img: '/images/clients/bill-and-melinda-gates-foundation.jpg',
       title: 'Bill & Melinda Gates Foundation',
-      href: '#',
+      href: 'https://www.gatesfoundation.org',
     },
     {
       img: '/images/clients/data2x.png',
       title: 'Data2X',
-      href: '#',
+      href: 'https://data2x.org',
     },
     {
-      img: '/images/clients/placeholder.png',
+      img: '/images/clients/dced.png',
       title: 'Donor Committee for Enterprise Development',
-      href: '#',
+      href: 'https://www.enterprise-development.org',
     },
     {
-      img: '/images/clients/placeholder.png',
+      img: '/images/clients/fundacion-capital.png',
       title: 'Fundación Capital',
-      href: '#',
+      href: 'https://www.fundacioncapital.org/home',
     },
     {
       img: '/images/clients/global-affairs-canada.jpg',
       title: 'Global Affairs Canada',
-      href: 'https://canada.ca/en',
+      href: 'https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng',
     },
     {
-      img: '/images/clients/placeholder.png',
+      img: '/images/clients/giz.jpg',
       title: 'Gesellschaft für Internationale Zusammenarbeit',
-      href: '#',
+      href: 'https://www.giz.de/en/html/index.html',
     },
     {
       img: '/images/clients/idrc.png',
       title: 'International Development Research Centre',
-      href: '#',
+      href: 'https://www.idrc.ca/en',
     },
     {
       img: '/images/clients/islamic-relief-canada.png',
       title: 'Islamic Relief Canada',
-      href: '#',
+      href: 'https://www.islamicreliefcanada.org',
     },
     {
       img: '/images/clients/malala-fund.png',
       title: 'Malala Fund',
-      href: '#',
+      href: 'https://malala.org',
     },
     {
       img: '/images/clients/oxfam-canada.png',
       title: 'Oxfam Canada',
-      href: '#',
+      href: 'https://www.oxfam.org/en',
     },
     {
-      img: '/images/clients/placeholder.png',
+      img: '/images/clients/unf.jpg',
       title: 'United Nations Foundation',
-      href: '#',
+      href: 'https://unfoundation.org',
     },
     {
       img: '/images/clients/urban-institute.jpg',
       title: 'Urban Institute',
-      href: '#',
+      href: 'https://www.urban.org',
     },
   ];
 
