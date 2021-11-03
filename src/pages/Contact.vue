@@ -29,7 +29,7 @@
             <p>
               If forms aren't your thing, feel free to drop me a line at
               <a class="underline" href="mailto:hello@hello.com"
-                >hello@hello.com</a
+                >hello@femdev.ca</a
               >. I'll respond within 48 hours, and am currently based in Ottawa,
               Canada.
             </p>
@@ -111,7 +111,11 @@
                       </g>
                     </svg>
                   </div>
-                  <a href="#" rel="noopener noreferrer">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/femdev-consulting"
+                    rel="noopener noreferrer"
+                  >
                     <span class="ml-3 text-lg text-brand-green-800">
                       LinkedIn
                     </span>
