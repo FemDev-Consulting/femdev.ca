@@ -61,17 +61,10 @@
                 <dd class="mb-1">
                   <a
                     class="text-brand-green-400 text-2xl font-light"
-                    href="mailto:kate.e.grantham@gmail.com"
-                    >kate.e.grantham@gmail.com</a
+                    href="mailto:hello@femdev.ca"
                   >
-                </dd>
-                <dt class="sr-only">Phone</dt>
-                <dd>
-                  <a
-                    class="text-brand-green-400 text-2xl font-light"
-                    href="tel:+16136170215"
-                    >1 (613) 617-0215</a
-                  >
+                    hello@femdev.ca
+                  </a>
                 </dd>
               </dl>
             </section>
