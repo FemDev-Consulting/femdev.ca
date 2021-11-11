@@ -23,11 +23,9 @@
               >
             </h2>
             <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-              <div class="inline-flex rounded-md shadow">
-                <router-link :to="{ path: '/contact' }" class="btn-primary"
-                  >Contact us
-                </router-link>
-              </div>
+              <router-link :to="{ path: '/contact' }" class="btn-primary"
+                >Contact us
+              </router-link>
             </div>
           </section>
         </div>
