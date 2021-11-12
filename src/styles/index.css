@@ -18,10 +18,25 @@
       py-3
       lg:py-5 lg:px-10
       rounded-xl
-      border border-transparent
+      border-2 border-transparent
       text-2xl text-white
       bg-brand-green-900
       hover:bg-brand-green-700
+      focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-75;
+  }
+
+  .btn-primary-outline {
+    @apply inline-flex
+      items-center
+      justify-center
+      px-5
+      py-3
+      lg:py-5 lg:px-10
+      rounded-xl
+      border-2 border-green-900
+      text-2xl text-green-900
+      bg-transparent
+      hover:bg-brand-green-200
       focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-75;
   }
 }
