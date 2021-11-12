@@ -20,7 +20,8 @@
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
               <p
                 class="
-                  w-4/5
+                  w-11/12
+                  md:w-4/5
                   text-brand-green-800 text-4xl
                   sm:text-4xl
                   md:text-5xl
@@ -46,9 +47,10 @@
                   :key="service.title"
                   class="
                     bg-brand-green-50
+                    w-11/12
+                    md:w-full
                     py-10
-                    pr-20
-                    md:pr-0
+                    pr-0
                     text-left
                     rounded-md
                   "
