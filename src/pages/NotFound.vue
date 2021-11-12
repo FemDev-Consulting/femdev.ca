@@ -30,13 +30,16 @@
             </p>
 
             <ul class="mt-10 flex flex-row justify-between">
-              <li class="w-1/2 pr-2">
+              <li class="order-2 md:order-1 w-1/2 pl-2">
                 <router-link :to="{ name: 'home' }" class="btn-primary w-full">
                   <span class="sr-only">Go to the FemDev</span> Home page
                 </router-link>
               </li>
-              <li class="w-1/2 pl-2">
-                <router-link :to="{ name: 'home' }" class="btn-primary w-full">
+              <li class="order-1 md:order-2 w-1/2 pr-2">
+                <router-link
+                  :to="{ name: 'contact' }"
+                  class="btn-primary-outline w-full"
+                >
                   <span class="sr-only">Go to the FemDev</span> Contact us
                 </router-link>
               </li>
