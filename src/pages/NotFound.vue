@@ -50,7 +50,7 @@
 <script lang="ts">
 import PageLayout from '../layouts/Page.vue';
 import ContentContainer from '../components/ui/ContentContainer.vue';
-import errorImageSvgUrl from '../assets/images/error.svg';
+import errorImageSvgUrl from '../assets/images/error/error.svg';
 
 import { useHead } from '@vueuse/head';
 
