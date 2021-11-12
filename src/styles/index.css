@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply antialiased font-light bg-brand-green-50;
+    @apply antialiased font-light bg-brand-green-50 text-brand-green-800;
   }
 }
 
