@@ -2,25 +2,17 @@
   <div>
     <page-layout>
       <div class="mt-20 mb-20">
-        <div class="flex flex-col md:flex-row-reverse">
-          <div class="md:w-1/3">
-            <div class="pb-20 pr-10 md:pt-0 md:px-0">
+        <div class="flex flex-col md:flex-row-reverse md:items-center">
+          <div class="md:w-2/5 xl:w-1/2">
+            <div class="pb-20 pr-10 md:pt-0 md:px-0 md:pr-0 md:pb-0">
               <img :src="errorImageSvgUrl" alt="" />
             </div>
           </div>
-          <div class="md:w-2/3">
+          <div class="md:w-3/5 xl:w-1/2 md:pr-5">
             <h1 class="text-8xl text-brand-green-800">
               <span class="sr-only">Error</span> Oops!
             </h1>
-            <p
-              class="
-                mt-2
-                w-full
-                md:w-4/5
-                lg:w-3/5
-                text-3xl text-brand-green-600
-              "
-            >
+            <p class="mt-2 w-full md:w-4/5 text-3xl text-brand-green-600">
               Looks like either this page is missing or some sort of
               catastrophic error occured.
             </p>
@@ -29,13 +21,17 @@
               Check out our home page or reach out using our contact page.
             </p>
 
-            <ul class="mt-10 flex flex-row justify-between">
-              <li class="order-2 md:order-1 w-1/2 pl-2">
+            <ul class="mt-10 flex flex-row justify-between lg:justify-start">
+              <li
+                class="order-2 md:order-1 w-1/2 lg:w-auto pl-2 md:pl-0 md:pr-2"
+              >
                 <router-link :to="{ name: 'home' }" class="btn-primary w-full">
                   <span class="sr-only">Go to the FemDev</span> Home page
                 </router-link>
               </li>
-              <li class="order-1 md:order-2 w-1/2 pr-2">
+              <li
+                class="order-1 md:order-2 w-1/2 lg:w-auto pr-2 md:pr-0 md:pl-2"
+              >
                 <router-link
                   :to="{ name: 'contact' }"
                   class="btn-primary-outline w-full"
