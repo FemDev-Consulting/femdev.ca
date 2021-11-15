@@ -13,8 +13,8 @@
               <span class="sr-only">Error</span> Oops!
             </h1>
             <p class="mt-2 w-full md:w-4/5 text-3xl text-brand-green-600">
-              Looks like either this page is missing or some sort of
-              catastrophic error occured.
+              Looks like this page is missing or some sort of catastrophic error
+              occured.
             </p>
 
             <p class="mt-10 text-xl">
