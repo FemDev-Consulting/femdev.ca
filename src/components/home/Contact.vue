@@ -16,7 +16,7 @@
               "
             >
               <span class="block text-brand-green-500"
-                >Have a project in mind
+                >Have a project in mind?
               </span>
               <span class="block text-brand-green-800"
                 >Learn how we can help you.</span
