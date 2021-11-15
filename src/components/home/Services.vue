@@ -104,11 +104,13 @@ export default {
     const services = [
       {
         svg: `
-          <svg class="${serviceSvgClass}" xmlns="http://www.w3.org/2000/svg" stroke="none" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64"><g><path d="M41.17,42.58l1.41-1.41L44,39.76l-5.61-5.61c0.58-0.8,1.11-1.68,1.59-2.61c0.07-0.14,0.14-0.27,0.19-0.41   C41.38,28.58,42,25.85,42,23c0-10.48-8.52-19-19-19S4,12.52,4,23c0,10.48,8.52,19,19,19c2.85,0,5.58-0.62,8.13-1.83   c0.14-0.06,0.28-0.12,0.44-0.2c0.91-0.47,1.78-1,2.58-1.58L39.76,44L41.17,42.58z M36.4,29.76c-1.44,2.84-3.8,5.2-6.64,6.64   C27.64,37.46,25.37,38,23,38c-8.27,0-15-6.73-15-15c0-8.27,6.73-15,15-15s15,6.73,15,15C38,25.37,37.46,27.64,36.4,29.76z"></path><path d="M58.24,49.74l-9.99-9.99c-0.05-0.05-0.1-0.09-0.15-0.13c-0.34-0.22-0.78-0.22-1.12,0c-0.02,0.02-0.05,0.04-0.07,0.07   c-0.03,0.01-0.05,0.03-0.08,0.06l-1.42,1.42L44,42.59L42.59,44l-1.42,1.41l-1.42,1.42c-0.03,0.03-0.05,0.05-0.06,0.08   c-0.03,0.02-0.05,0.05-0.07,0.07c-0.24,0.37-0.22,0.86,0.07,1.2c0.02,0.02,0.04,0.05,0.06,0.07l9.99,9.99   c1.12,1.12,2.67,1.76,4.25,1.76C57.3,60,60,57.3,60,53.99C60,52.41,59.36,50.86,58.24,49.74z"></path><path d="M18.1637,11.4115c-0.3772,0.1713-0.6492,0.4792-0.7841,0.8385s-0.1325,0.7701,0.0388,1.1473   c0.3428,0.7545,1.2314,1.088,1.9859,0.7452c4.2675-1.9382,9.3161-0.0432,11.2551,4.2235c0.3427,0.7545,1.2314,1.088,1.9859,0.7452   c0.7544-0.3428,1.0881-1.2319,0.7454-1.9864C30.7672,11.3524,23.9365,8.7891,18.1637,11.4115z"></path></g></svg>
+          <svg class="${serviceSvgClass}" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+           <g transform="translate(0,-952.36218)"><path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;enable-background:accumulate;" d="m 42.998527,964.36218 c -17.08437,0 -30.998509,13.91403 -30.998509,30.99851 0,17.08441 13.914119,30.99851 30.998509,30.99851 7.45876,0 14.33043,-2.6208 19.68653,-7.0309 l 20.1865,20.1553 c 1.1715,1.1714 3.0784,1.1715 4.2498,0 1.1715,-1.1715 1.1715,-3.0471 0,-4.2186 l -20.2177,-20.1865 c 0,-0.01 0,-0.025 0,-0.031 4.4176,-5.3583 7.0934,-12.2208 7.0934,-19.68651 0,-17.08448 -13.9142,-30.99851 -30.99853,-30.99851 z m 0,5.99971 c 13.84183,0 24.99883,11.15687 24.99883,24.9988 0,13.84181 -11.157,24.99881 -24.99883,24.99881 -13.84185,0 -24.9988,-11.157 -24.9988,-24.99881 0,-13.84193 11.15693,-24.9988 24.9988,-24.9988 z" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"></path></g>
+          </svg>
           `,
         title: 'Research',
         description:
-          'Conducting research on gender equality and women’s rights issues using feminist methodology and methods',
+          'Applying feminist methodology to conduct research on gender equality and women’s rights issues',
       },
       {
         svg: `
@@ -128,7 +130,7 @@ export default {
           `,
         title: 'Analysis',
         description:
-          'Conducting literature reviews, evidence reviews and landscape analyses of contemporary development issues, policies and trends',
+          'Conducting evidence reviews and landscape analysis of development issues, policies and trends',
       },
       {
         svg: `
@@ -145,7 +147,7 @@ export default {
           `,
         title: 'Advocacy',
         description:
-          'Using evidence to engage governments, donors and development agencies and advocate for social, institutional and policy change',
+          'Using evidence to engage stakeholders and advocate for social, institutional and policy change',
       },
       {
         svg: `
@@ -155,7 +157,7 @@ export default {
           `,
         title: 'Knowledge mobilization',
         description:
-          'Translating technical data and evidence into innovative knowledge and communications products (e.g., podcasts, policy briefs, videos, slide decks, etc.)',
+          'Translating data and evidence into innovative knowledge and communications products (e.g., podcasts, policy briefs, videos, slide decks)',
       },
       {
         svg: `
@@ -166,7 +168,7 @@ export default {
           `,
         title: 'Event facilitation',
         description:
-          'Facilitating in-person and online events, trainings and workshops that are accessible, engaging and interactive for participants',
+          'Facilitating in-person and online events, trainings and workshops that are accessible and engaging for participants',
       },
     ];
 
