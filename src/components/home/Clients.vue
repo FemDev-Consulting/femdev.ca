@@ -15,7 +15,7 @@
                   xl:text-2xl
                 "
               >
-                Who we work with
+                Clients
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
 
