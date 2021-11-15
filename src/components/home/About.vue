@@ -174,7 +174,7 @@ export default {
     const femDevMeansList = [
       {
         description:
-          'We are focused on transforming unequal systems and power relations using an intersectional lens',
+          'We are committed to transforming unequal systems and power relations using an intersectional lens',
       },
       {
         description:
@@ -186,7 +186,7 @@ export default {
       },
       {
         description:
-          'We believe in research for action to support evidence-based decision making, policy making and social change',
+          'We believe in designing research for action to support evidence-based decision making, policy making and social change',
       },
       {
         description:
