@@ -52,11 +52,6 @@
           <section>
             <h2 class="sr-only">Contact details</h2>
 
-            <p class="text-xl text-brand-green-800 max-w-prose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt
-            </p>
-
             <dl class="mt-8 text-base text-gray-500">
               <div class="mt-6">
                 <dt class="sr-only">Twitter</dt>
@@ -162,9 +157,9 @@
                       </g>
                     </svg>
                   </div>
-                  <a href="mailto:support@example.com">
+                  <a href="mailto:hello@femdev.ca">
                     <span class="ml-3 text-lg text-brand-green-800">
-                      support@example.com
+                      hello@femdev.ca
                     </span>
                   </a>
                 </dd>
