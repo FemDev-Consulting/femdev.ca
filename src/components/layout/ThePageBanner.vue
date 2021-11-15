@@ -58,8 +58,6 @@ function useProductionFlag() {
     production = true;
   }
 
-  console.log('PROD ENV:', import.meta.env.VITE_PROD_CONTEXT, production);
-
   return production;
 }
 </script>
