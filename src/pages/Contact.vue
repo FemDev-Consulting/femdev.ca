@@ -17,7 +17,8 @@
             md:order-1
             w-full
             md:w-3/5
-            px-10
+            px-4
+            sm:px-10
             py-16
             bg-brand-green-200
             rounded-md
