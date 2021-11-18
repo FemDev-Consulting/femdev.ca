@@ -122,11 +122,13 @@ function useFemDevClients() {
       title: 'Global Affairs Canada',
       href: 'https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng',
     },
+    /*
     {
       img: '/images/clients/giz.jpg',
       title: 'Gesellschaft für Internationale Zusammenarbeit',
       href: 'https://www.giz.de/en/html/index.html',
     },
+    */
     {
       img: '/images/clients/idrc.png',
       title: 'International Development Research Centre',
