@@ -6,67 +6,28 @@
           <div class="w-full py-32 md:py-30">
             <section>
               <h2
-                class="
-                  mb-2
-                  tracking-wide
-                  text-brand-green-800 text-2xl
-                  sm:text-lg
-                  md:text-xl
-                  xl:text-2xl
-                "
+                class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
               >
                 Services
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
               <p
-                class="
-                  w-11/12
-                  md:w-4/5
-                  text-brand-green-800 text-4xl
-                  sm:text-4xl
-                  md:text-5xl
-                  xl:text-6xl
-                "
+                class="w-11/12 md:w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
               >
                 We partner with organizations and governments to provide the
                 following types of services:
               </p>
 
               <ul
-                class="
-                  mt-16
-                  grid grid-cols-1
-                  md:grid-cols-3
-                  gap-y-2
-                  md:gap-x-10
-                  lg:gap-x-20
-                "
+                class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-y-2 md:gap-x-10 lg:gap-x-20"
               >
                 <li
                   v-for="service in services"
                   :key="service.title"
-                  class="
-                    bg-brand-green-50
-                    w-11/12
-                    md:w-full
-                    py-10
-                    pr-0
-                    text-left
-                    rounded-md
-                  "
+                  class="bg-brand-green-50 w-11/12 md:w-full py-10 pr-0 text-left rounded-md"
                 >
                   <div
-                    class="
-                      flex
-                      items-center
-                      justify-start
-                      pl-0
-                      pt-5
-                      pb-5
-                      pr-5
-                      mx-auto
-                      md:mx-0
-                    "
+                    class="flex items-center justify-start pl-0 pt-5 pb-5 pr-5 mx-auto md:mx-0"
                   >
                     <!-- Heroicon name: outline/inbox -->
                     <div v-html="service.svg"></div>
@@ -90,9 +51,11 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+
 import ContentContainer from '../ui/ContentContainer.vue';
 
-export default {
+export default defineComponent({
   components: {
     ContentContainer,
   },
@@ -176,5 +139,5 @@ export default {
       services,
     };
   },
-};
+});
 </script>

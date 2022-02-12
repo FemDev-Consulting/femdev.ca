@@ -5,14 +5,7 @@
       <content-container>
         <div class="flex flex-col">
           <div
-            class="
-              w-full
-              pt-32
-              pb-10
-              flex flex-row flex-nowrap
-              justify-between
-              items-center
-            "
+            class="w-full pt-32 pb-10 flex flex-row flex-nowrap justify-between items-center"
           >
             <router-link :to="{ path: '/' }">
               <svg
@@ -66,15 +59,7 @@
                   >
                     Email <span class="sr-only">hello@femdev.ca</span>
                     <svg
-                      class="
-                        h-6
-                        w-6
-                        mb-1
-                        ml-1
-                        fill-current
-                        text-brand-green-500
-                        inline-block
-                      "
+                      class="h-6 w-6 mb-1 ml-1 fill-current text-brand-green-500 inline-block"
                       height="100px"
                       width="100px"
                       xmlns="http://www.w3.org/2000/svg"
@@ -122,15 +107,7 @@
                   >
                     Twitter <span class="sr-only">@Feminist_Dev</span>
                     <svg
-                      class="
-                        h-6
-                        w-6
-                        mb-1
-                        ml-1
-                        fill-current
-                        text-brand-green-500
-                        inline-block
-                      "
+                      class="h-6 w-6 mb-1 ml-1 fill-current text-brand-green-500 inline-block"
                       height="100px"
                       width="100px"
                       xmlns="http://www.w3.org/2000/svg"
@@ -178,15 +155,7 @@
                   >
                     LinkedIn <span class="sr-only">femdev-consulting</span>
                     <svg
-                      class="
-                        h-6
-                        w-6
-                        mb-1
-                        ml-1
-                        fill-current
-                        text-brand-green-500
-                        inline-block
-                      "
+                      class="h-6 w-6 mb-1 ml-1 fill-current text-brand-green-500 inline-block"
                       height="100px"
                       width="100px"
                       xmlns="http://www.w3.org/2000/svg"
@@ -298,11 +267,12 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
 import ContentContainer from '../ui/ContentContainer.vue';
 
-export default {
+export default defineComponent({
   components: {
     ContentContainer,
   },
-};
+});
 </script>

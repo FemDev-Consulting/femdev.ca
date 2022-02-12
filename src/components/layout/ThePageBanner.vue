@@ -10,13 +10,7 @@
               <div class="flex flex-nowrap items-center">
                 <div class="border rounded-md py-1 px-2">
                   <p
-                    class="
-                      text-center
-                      sm:text-left
-                      text-sm
-                      md:text-base
-                      uppercase
-                    "
+                    class="text-center sm:text-left text-sm md:text-base uppercase"
                   >
                     Test Site
                   </p>
@@ -37,9 +31,10 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
 import ContentContainer from '../ui/ContentContainer.vue';
 
-export default {
+export default defineComponent({
   components: {
     ContentContainer,
   },
@@ -49,7 +44,8 @@ export default {
 
     return { isProduction };
   },
-};
+});
+
 function useProductionFlag() {
   let production: boolean = false;
   const PROD_STRING: string = 'production';

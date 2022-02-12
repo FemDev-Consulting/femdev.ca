@@ -103,16 +103,7 @@
             autocomplete="name"
             placeholder="Harley Quinn"
             required
-            class="
-              block
-              w-full
-              shadow-sm
-              py-3
-              px-4
-              placeholder-gray-500
-              focus:ring-brand-green-500 focus:border-brand-green-500
-              border-gray-500
-            "
+            class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           />
           <div v-if="Array.isArray(nameError) && nameError.length" class="mt-1">
             <ul>
@@ -141,15 +132,7 @@
             autocomplete="email"
             placeholder="harley.quinn@justiceleague.com"
             required
-            class="
-              block
-              w-full
-              py-3
-              px-4
-              placeholder-gray-500
-              focus:ring-brand-green-500 focus:border-brand-green-500
-              border-gray-500
-            "
+            class="block w-full py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           />
           <div
             v-if="Array.isArray(emailError) && emailError.length"
@@ -178,15 +161,7 @@
             type="text"
             autocomplete="organization"
             placeholder="Suicide Squad"
-            class="
-              block
-              w-full
-              py-3
-              px-4
-              placeholder-gray-500
-              focus:ring-brand-green-500 focus:border-brand-green-500
-              border-gray-500
-            "
+            class="block w-full py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           />
           <div
             v-if="Array.isArray(emailError) && emailError.length"
@@ -217,15 +192,7 @@
             rows="5"
             placeholder="How can we help?"
             required
-            class="
-              block
-              w-full
-              py-3
-              px-4
-              placeholder-gray-500
-              focus:ring-brand-green-500 focus:border-brand-green-500
-              border-gray-500
-            "
+            class="block w-full py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           >
           </textarea>
           <div
@@ -287,11 +254,12 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
 import { watchEffect } from '@vue/runtime-core';
 import { ref } from '@vue/reactivity';
 import axios from 'axios';
 
-export default {
+export default defineComponent({
   setup() {
     // Stateful flags
     const isSubmitHitOnce = ref(false);
@@ -485,5 +453,5 @@ export default {
       handleSubmit,
     };
   },
-};
+});
 </script>

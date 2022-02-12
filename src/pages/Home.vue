@@ -11,7 +11,10 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
 import { useHead } from '@vueuse/head';
+
+// Components
 import Layout from '../layouts/Default.vue';
 import HomeHero from '../components/home/Hero.vue';
 import HomeServices from '../components/home/Services.vue';
@@ -19,7 +22,7 @@ import HomeAbout from '../components/home/About.vue';
 import HomeClients from '../components/home/Clients.vue';
 import HomeContact from '../components/home/Contact.vue';
 
-export default {
+export default defineComponent({
   components: {
     Layout,
     HomeHero,
@@ -31,7 +34,7 @@ export default {
   setup() {
     setupHeadTags();
   },
-};
+});
 
 function setupHeadTags() {
   const pagetitle = 'Home';

@@ -48,13 +48,15 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+import { useHead } from '@vueuse/head';
+
+// Components
 import PageLayout from '../layouts/Page.vue';
 import ContentContainer from '../components/ui/ContentContainer.vue';
 import errorImageSvgUrl from '../assets/images/error/error.svg';
 
-import { useHead } from '@vueuse/head';
-
-export default {
+export default defineComponent({
   components: {
     ContentContainer,
     PageLayout,
@@ -65,7 +67,7 @@ export default {
       errorImageSvgUrl,
     };
   },
-};
+});
 
 function setupHeadTags() {
   const pagetitle = 'Error';

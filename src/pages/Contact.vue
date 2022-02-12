@@ -12,18 +12,7 @@
       <div class="flex flex-row flex-wrap align-middle justify-center">
         <!-- Form -->
         <div
-          class="
-            order-2
-            md:order-1
-            w-full
-            md:w-3/5
-            px-4
-            sm:px-10
-            py-16
-            bg-brand-green-200
-            rounded-md
-            border-4 border-brand-green-200
-          "
+          class="order-2 md:order-1 w-full md:w-3/5 px-4 sm:px-10 py-16 bg-brand-green-200 rounded-md border-4 border-brand-green-200"
         >
           <section>
             <h2 class="sr-only">Contact form</h2>
@@ -39,16 +28,7 @@
         </div>
         <!-- Information display -->
         <div
-          class="
-            order-1
-            md:order-2
-            w-full
-            md:w-2/5
-            pb-20
-            md:p-10
-            lg:p-20
-            self-center
-          "
+          class="order-1 md:order-2 w-full md:w-2/5 pb-20 md:p-10 lg:p-20 self-center"
         >
           <section>
             <h2 class="sr-only">Contact details</h2>
@@ -174,12 +154,15 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+import { useHead } from '@vueuse/head';
+
+// Components
 import PageLayout from '../layouts/Page.vue';
 import ContactForm from '../components/contact/Form.vue';
 import ContentPageHeading from '../components/ui/ContentPageHeading.vue';
-import { useHead } from '@vueuse/head';
 
-export default {
+export default defineComponent({
   components: {
     PageLayout,
     ContactForm,
@@ -188,7 +171,7 @@ export default {
   setup() {
     setupHeadTags();
   },
-};
+});
 
 function setupHeadTags() {
   const pagetitle = 'Contact';

@@ -13,12 +13,15 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+
+// Components
 import TheSkipNav from '../components/layout/TheSkipNav.vue';
 import TheHeader from '../components/layout/TheHeader.vue';
 import TheFooter from '../components/layout/TheFooter.vue';
 import ThePageBanner from '../components/layout/ThePageBanner.vue';
 
-export default {
+export default defineComponent({
   components: {
     TheHeader,
     TheSkipNav,
@@ -26,5 +29,5 @@ export default {
     ThePageBanner,
   },
   setup() {},
-};
+});
 </script>

@@ -5,15 +5,7 @@
         <div class="py-40">
           <section>
             <h2
-              class="
-                mb-10
-                font-light
-                tracking-wide
-                text-4xl
-                sm:text-2xl
-                md:text-4xl
-                xl:text-6xl
-              "
+              class="mb-10 font-light tracking-wide text-4xl sm:text-2xl md:text-4xl xl:text-6xl"
             >
               <span class="block text-brand-green-500"
                 >Have a project in mind?
@@ -35,11 +27,12 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
 import ContentContainer from '../ui/ContentContainer.vue';
 
-export default {
+export default defineComponent({
   components: {
     ContentContainer,
   },
-};
+});
 </script>

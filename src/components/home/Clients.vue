@@ -47,9 +47,10 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
 import ContentContainer from '../ui/ContentContainer.vue';
 
-export default {
+export default defineComponent({
   components: {
     ContentContainer,
   },
@@ -60,7 +61,8 @@ export default {
       clientList,
     };
   },
-};
+});
+
 function useFemDevClients() {
   const clients = [
     {
