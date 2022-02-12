@@ -1,11 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: {
-    enabled: process.env.NODE_ENV === 'production',
-    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     container: {
       center: true,
@@ -38,7 +34,7 @@ module.exports = {
         },
       },
       // The following colours deviate from the tailwind default
-      gray: colors.warmGray,
+      gray: colors.stone,
       yellow: colors.amber,
     },
   },
