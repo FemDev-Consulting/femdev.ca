@@ -6,65 +6,31 @@
           <div class="w-full py-32 md:py-30">
             <section>
               <h2
-                class="
-                  mb-2
-                  tracking-wide
-                  text-brand-green-800 text-2xl
-                  sm:text-lg
-                  md:text-xl
-                  xl:text-2xl
-                "
+                class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
               >
                 Clients
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
 
               <p
-                class="
-                  w-4/5
-                  text-brand-green-800 text-4xl
-                  sm:text-4xl
-                  md:text-5xl
-                  xl:text-6xl
-                "
+                class="w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
               >
                 We are proud to partner with organizations that are committed to
                 advancing gender equality and social justice
               </p>
 
               <ul
-                class="
-                  mx-auto
-                  md:mx-0
-                  mt-20
-                  md:w-auto
-                  grid
-                  gap-2
-                  grid-cols-2
-                  md:grid-cols-3
-                  xl:grid-cols-4
-                "
+                class="mx-auto md:mx-0 mt-20 md:w-auto grid gap-2 grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
               >
                 <li v-for="client in clientList" :key="client.title">
                   <a
                     :href="client.href"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="
-                      flex
-                      justify-center
-                      bg-white
-                      py-10
-                      lg:py-14
-                      xl:py-20
-                      px-10
-                      md:px-16
-                      w-full
-                      self-center
-                    "
+                    class="flex justify-center bg-white py-10 lg:py-14 xl:py-20 px-10 md:px-16 w-full self-center"
                   >
                     <img
-                      class="h-10 md:h-10 lg:h-10 xl:h-14 object-contain"
+                      class="h-12 md:h-14 lg:h-14 xl:h-14 object-contain"
                       :src="client.img"
                       alt=""
                     />
@@ -122,13 +88,11 @@ function useFemDevClients() {
       title: 'Global Affairs Canada',
       href: 'https://www.international.gc.ca/global-affairs-affaires-mondiales/home-accueil.aspx?lang=eng',
     },
-    /*
     {
       img: '/images/clients/giz.jpg',
       title: 'Gesellschaft für Internationale Zusammenarbeit',
       href: 'https://www.giz.de/en/html/index.html',
     },
-    */
     {
       img: '/images/clients/idrc.png',
       title: 'International Development Research Centre',
