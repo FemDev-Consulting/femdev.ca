@@ -15,7 +15,7 @@
               <p
                 class="w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
               >
-                We are proud to partner with organizations that are committed to
+                We are proud to partner with organizations committed to
                 advancing gender equality and social justice
               </p>
 
