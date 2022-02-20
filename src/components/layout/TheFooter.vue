@@ -258,7 +258,7 @@
         </div>
         <div class="mt-8 md:mt-0 md:order-1">
           <p class="text-center text-base text-brand-green-300">
-            &copy; 2021 FemDev Consulting
+            &copy; 2022 FemDev Consulting
           </p>
         </div>
       </div>
