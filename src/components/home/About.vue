@@ -5,8 +5,8 @@
         <div class="my-0 border-b-2 border-brand-green-700">
           <div class="w-full py-32 md:py-30">
             <section>
-              <div class="flex flex-col md:flex-row flex-nowrap">
-                <div class="w-2/3">
+              <div class="flex flex-col md:flex-row flex-nowrap items-end">
+                <div class="w-full md:w-2/3">
                   <h2
                     class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
                   >
@@ -21,15 +21,15 @@
                     feminist research, evaluation and analysis services.
                   </p>
                 </div>
-                <div class="pl-10 w-1/3">
+                <div class="pt-20 md:pl-10 lg:pl-20 w-full md:w-1/3">
                   <img
                     class="hidden md:block"
-                    src="../../assets/images/home/hero-slim.svg"
+                    src="../../assets/images/home/about-wide.svg"
                     alt=""
                   />
                   <img
                     class="block md:hidden"
-                    src="../../assets/images/home/hero-wide.svg"
+                    src="../../assets/images/home/about-wide.svg"
                     alt=""
                   />
                 </div>
