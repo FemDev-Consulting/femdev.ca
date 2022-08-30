@@ -191,7 +191,7 @@
           <div
             class="mt-10 lg:mt-0 lg:w-7/12 bg-brand-green-200 rounded-2xl lg:rounded-r-xl lg:rounded-l-none flex justify-center self-stretch"
           >
-            <div class="self-center px-32 lg:px-0 xl:px-24">
+            <div class="self-center px-0 sm:px-44 md:px-32 lg:px-0 xl:px-24">
               <img src="../assets/images/workshop/workshop-logo.png" alt="" />
             </div>
           </div>
