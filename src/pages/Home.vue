@@ -4,6 +4,7 @@
       <home-hero />
       <home-services />
       <home-about />
+      <home-principles />
       <home-clients />
       <home-contact />
     </layout>
@@ -19,6 +20,7 @@ import Layout from '../layouts/Default.vue';
 import HomeHero from '../components/home/Hero.vue';
 import HomeServices from '../components/home/Services.vue';
 import HomeAbout from '../components/home/About.vue';
+import HomePrinciples from '../components/home/Principles.vue';
 import HomeClients from '../components/home/Clients.vue';
 import HomeContact from '../components/home/Contact.vue';
 
@@ -28,6 +30,7 @@ export default defineComponent({
     HomeHero,
     HomeServices,
     HomeAbout,
+    HomePrinciples,
     HomeClients,
     HomeContact,
   },

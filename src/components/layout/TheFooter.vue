@@ -198,7 +198,7 @@
           </div>
           <div class="pt-10 pb-20 flex flex-row justify-end">
             <p class="text-brand-green-500 font-light">
-              &copy; 2021 FemDev Consulting
+              &copy; {{ currentYear }} FemDev Consulting
             </p>
           </div>
         </div>
@@ -273,6 +273,11 @@ import ContentContainer from '../ui/ContentContainer.vue';
 export default defineComponent({
   components: {
     ContentContainer,
+  },
+  setup() {
+    const currentYear = new Date().getFullYear();
+
+    return { currentYear };
   },
 });
 </script>

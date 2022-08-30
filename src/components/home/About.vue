@@ -5,109 +5,34 @@
         <div class="my-0 border-b-2 border-brand-green-700">
           <div class="w-full py-32 md:py-30">
             <section>
-              <h2
-                class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
-              >
-                About
-              </h2>
-              <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
-
-              <p
-                class="w-11/12 md:w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
-              >
-                FemDev is an Ottawa-based global development consulting firm
-                providing feminist research, evaluation and analysis services.
-              </p>
-
-              <!-- Outside responsive width container -->
-              <div class="w-11/12 md:w-full">
-                <!-- Inner flex container -->
-                <div
-                  class="flex flex-col-reverse md:flex-row-reverse md:items-center"
-                >
-                  <div class="w-full lg:w-2/5 xl:w-1/2">
-                    <div
-                      class="pt-20 pr-10 md:pt-0 md:px-0 md:pl-10 sm:pr-32 lg:pr-0"
-                    >
-                      <img :src="aboutImageSvgUrl" alt="" />
-                    </div>
-                  </div>
-                  <!--
-                  <div class="w-full md:w-2/5">
-                    <img
-                      class="
-                        pr-10
-                        pt-20
-                        md:pt-0 md:pl-20
-                        object-fit
-                        h-full
-                        w-full
-                      "
-                      :src="aboutImageSvgUrl"
-                      alt=""
-                    />-->
-                  <!--<div class="pb-20 pr-10 md:pt-0 md:px-0 md:pr-0 md:pb-0">
-
-                  </div>
-                  </div>-->
-                  <div class="w-full lg:w-3/5">
-                    <div class="text-xl">
-                      <p class="mt-8">
-                        Our expertise in gender equality and women’s rights is
-                        broad, ranging from education and decent employment, to
-                        health and gender-based violence, to social norms and
-                        care work.
-                      </p>
-
-                      <p class="mt-8">
-                        We center feminist principles in all of our processes
-                        and ways of working. At FemDev, this means:
-                      </p>
-
-                      <ul class="ist-none list-outside ml-8">
-                        <li
-                          v-for="femDevMeans in femDevMeansList"
-                          :key="femDevMeans.description"
-                          class="mt-4 flex flex-row flex-nowrap justify-start"
-                        >
-                          <div v-html="femDevMeansListSvg"></div>
-                          <p>
-                            {{ femDevMeans.description }}
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                v-if="false"
-                class="w-11/12 md:w-4/5 text-xl text-brand-green-800"
-              >
-                <p class="mt-8">
-                  Our expertise in gender equality and women’s rights is broad,
-                  ranging from education and decent employment, to health and
-                  gender-based violence, to social norms and care work.
-                </p>
-
-                <p class="mt-8">
-                  We center feminist principles in all of our processes and ways
-                  of working. At FemDev, this means:
-                </p>
-
-                <ul class="ist-none list-outside ml-8">
-                  <li
-                    v-for="femDevMeans in femDevMeansList"
-                    :key="femDevMeans.description"
-                    class="mt-4 flex flex-row flex-nowrap justify-start"
+              <div class="flex flex-col md:flex-row flex-nowrap items-end">
+                <div class="w-full md:w-2/3">
+                  <h2
+                    class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
                   >
-                    <div v-html="femDevMeansListSvg"></div>
-                    <p>
-                      {{ femDevMeans.description }}
-                    </p>
-                  </li>
-                </ul>
+                    About
+                  </h2>
+                  <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
+
+                  <p
+                    class="text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
+                  >
+                    FemDev is a global development consulting firm providing
+                    feminist research, evaluation and analysis services.
+                  </p>
+                </div>
+                <div class="pt-20 md:pl-10 lg:pl-20 w-full md:w-1/3">
+                  <img
+                    class="hidden md:block"
+                    src="../../assets/images/home/about-wide.svg"
+                    alt=""
+                  />
+                  <img
+                    class="block md:hidden"
+                    src="../../assets/images/home/about-wide.svg"
+                    alt=""
+                  />
+                </div>
               </div>
             </section>
           </div>
