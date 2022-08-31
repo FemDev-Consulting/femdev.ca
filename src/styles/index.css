@@ -48,4 +48,11 @@
     text-xl;
   }
 
+  .btn-primary-outline-sm {
+    @apply btn-primary-outline
+    px-5
+    py-3
+    lg:py-3 lg:px-5
+    text-xl;
+  }
 }
