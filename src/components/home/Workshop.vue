@@ -18,13 +18,22 @@
                   >
                     Feminist Knowledge Translation for Research Impact
                   </p>
-                  <ul
-                    class="marker:text-brand-pink-800 mt-1 ml-5 flex list-disc list-inside text-xl leading-10"
-                  >
-                    <li class="">One</li>
-                    <li class="ml-10">Two</li>
-                    <li class="ml-10">Three</li>
-                  </ul>
+
+                  <!-- Workshop info -->
+                  <div class="mt-5 text-xl">
+                    <ul
+                      class="marker:text-brand-pink-800 mt-1 ml-5 flex list-disc list-inside text-xl"
+                    >
+                      <li class="">
+                        <span class="sr-only">Date: </span
+                        ><time>Tuesday, 27 September 2022</time>
+                      </li>
+                      <li class="ml-10">
+                        <span class="sr-only">Location: </span>Online event
+                      </li>
+                    </ul>
+                  </div>
+
                   <!-- Registration button -->
                   <div class="mt-8">
                     <ul class="list-none flex">
