@@ -11,8 +11,8 @@
                 Workshop
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
-              <div class="flex items-center">
-                <div class="w-8/12">
+              <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-8/12">
                   <p
                     class="text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
                   >
@@ -22,13 +22,13 @@
                   <!-- Workshop info -->
                   <div class="mt-5 text-xl">
                     <ul
-                      class="marker:text-brand-pink-800 mt-1 ml-5 flex list-disc list-inside text-xl"
+                      class="marker:text-brand-pink-800 mt-1 ml-5 lg:flex list-disc list-inside text-xl"
                     >
                       <li class="">
                         <span class="sr-only">Date: </span
                         ><time>Tuesday, 27 September 2022</time>
                       </li>
-                      <li class="ml-10">
+                      <li class="lg:ml-10">
                         <span class="sr-only">Location: </span>Online event
                       </li>
                     </ul>
@@ -62,9 +62,9 @@
                     </ul>
                   </div>
                 </div>
-                <div class="w-4/12">
+                <div class="lg:w-4/12">
                   <img
-                    class=""
+                    class="mt-10 lg:mt-0 px-22 md:px-44 lg:p-0"
                     src="../../assets/images/workshop/workshop-logo.png"
                     alt=""
                   />
