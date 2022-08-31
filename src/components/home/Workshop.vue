@@ -19,11 +19,11 @@
                     Feminist Knowledge Translation for Research Impact
                   </p>
                   <ul
-                    class="ml-10 mt-10 list-disc list-inside text-xl leading-10"
+                    class="marker:text-brand-pink-800 mt-1 ml-5 flex list-disc list-inside text-xl leading-10"
                   >
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
+                    <li class="">One</li>
+                    <li class="ml-10">Two</li>
+                    <li class="ml-10">Three</li>
                   </ul>
                   <!-- Registration button -->
                   <div class="mt-8">
