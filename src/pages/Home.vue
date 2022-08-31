@@ -2,6 +2,7 @@
   <div>
     <layout>
       <home-hero />
+      <home-workshop />
       <home-services />
       <home-about />
       <home-principles />
@@ -18,6 +19,7 @@ import { useHead } from '@vueuse/head';
 // Components
 import Layout from '../layouts/Default.vue';
 import HomeHero from '../components/home/Hero.vue';
+import HomeWorkshop from '../components/home/Workshop.vue';
 import HomeServices from '../components/home/Services.vue';
 import HomeAbout from '../components/home/About.vue';
 import HomePrinciples from '../components/home/Principles.vue';
@@ -28,6 +30,7 @@ export default defineComponent({
   components: {
     Layout,
     HomeHero,
+    HomeWorkshop,
     HomeServices,
     HomeAbout,
     HomePrinciples,

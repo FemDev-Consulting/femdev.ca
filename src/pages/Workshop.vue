@@ -5,7 +5,7 @@
         <template v-slot:header
           >Feminist Knowledge Translation for Research Impact</template
         >
-        <template v-slot:byline> Graduate Student Workshop</template>
+        <template v-slot:byline>Graduate Student Workshop</template>
       </content-page-heading>
 
       <div class="mb-12">
