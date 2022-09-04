@@ -6,10 +6,10 @@
           <div class="mt-28 md:mt-5 mb-24">
             <div class="flex flex-col md:flex-row flex-nowrap items-center">
               <!-- Text Container-->
-              <div class="w-full md:w-3/5 lg:w-2/3 xl:w-2/3 mb-20 md:mb-0">
+              <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 mb-20 md:mb-0">
                 <div class="py-0 pr-0">
                   <h1
-                    class="tracking-normal font-light text-brand-green-800 text-5xl sm:text-5xl md:text-6xl lg:text-7xl"
+                    class="tracking-normal font-light text-brand-green-800 text-5xl sm:text-5xl md:text-6xl lg:text-6xl"
                   >
                     Passionate about
                     <span class="text-brand-pink-900">feminist</span>
@@ -18,16 +18,11 @@
                 </div>
               </div>
               <!-- Image container  -->
-              <div class="w-full md:w-2/5 lg:w-1/3 xl:w-1/3">
-                <div class="py-10">
+              <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
+                <div class="pt-20">
                   <img
-                    class="hidden md:block"
-                    src="../../assets/images/home/hero-slim.svg"
-                    alt=""
-                  />
-                  <img
-                    class="block md:hidden"
-                    src="../../assets/images/home/hero-wide.svg"
+                    class=""
+                    src="../../assets/images/home/hero/hero-one.png"
                     alt=""
                   />
                 </div>

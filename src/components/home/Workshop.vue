@@ -11,7 +11,7 @@
                 Workshop
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
-              <div class="flex flex-col lg:flex-row items-center">
+              <div class="flex flex-col lg:flex-row">
                 <div class="lg:w-8/12">
                   <p
                     class="text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
@@ -64,7 +64,7 @@
                 </div>
                 <div class="lg:w-4/12">
                   <img
-                    class="mt-10 lg:mt-0 px-22 md:px-44 lg:p-0"
+                    class="mt-10 px-10 md:px-52 lg:mt-0 lg:pl-32 lg:pr-0"
                     src="../../assets/images/workshop/workshop-logo.png"
                     alt=""
                   />
