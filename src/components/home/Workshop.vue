@@ -64,7 +64,7 @@
                 </div>
                 <div class="lg:w-4/12">
                   <img
-                    class="mt-10 lg:mt-0 px-20 md:px-44 lg:pl-14 lg:pr-0"
+                    class="mt-10 px-10 md:px-52 lg:mt-0 lg:pl-32 lg:pr-0"
                     src="../../assets/images/workshop/workshop-logo.png"
                     alt=""
                   />
