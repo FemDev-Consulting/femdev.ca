@@ -19,85 +19,32 @@
                 of working.
               </p>
 
-              <!-- Outside responsive width container -->
-              <div class="w-11/12 md:w-full">
-                <!-- Inner flex container -->
-                <div
-                  class="flex flex-col-reverse md:flex-row-reverse md:items-center"
-                >
-                  <div class="w-full lg:w-2/5 xl:w-1/2">
-                    <div
-                      class="pt-20 pr-10 md:pt-0 md:px-0 md:pl-10 sm:pr-32 lg:pr-0"
-                    >
-                      <img :src="aboutImageSvgUrl" alt="" />
-                    </div>
-                  </div>
-                  <!--
-                  <div class="w-full md:w-2/5">
-                    <img
-                      class="
-                        pr-10
-                        pt-20
-                        md:pt-0 md:pl-20
-                        object-fit
-                        h-full
-                        w-full
-                      "
-                      :src="aboutImageSvgUrl"
-                      alt=""
-                    />-->
-                  <!--<div class="pb-20 pr-10 md:pt-0 md:px-0 md:pr-0 md:pb-0">
-
-                  </div>
-                  </div>-->
+              <div class="mt-12">
+                <div class="flex flex-col lg:flex-row">
                   <div class="w-full lg:w-3/5">
-                    <div class="text-xl">
-                      <p class="mt-8"></p>
-
-                      <ul class="ist-none list-outside ml-8">
-                        <li
-                          v-for="femDevMeans in femDevMeansList"
-                          :key="femDevMeans.description"
-                          class="mt-4 flex flex-row flex-nowrap justify-start"
-                        >
-                          <div v-html="femDevMeansListSvg"></div>
-                          <p>
-                            {{ femDevMeans.description }}
-                          </p>
-                        </li>
-                      </ul>
+                    <ul class="text-xl list-none list-outside ml-8">
+                      <li
+                        v-for="femDevMeans in femDevMeansList"
+                        :key="femDevMeans.description"
+                        class="mt-4 flex flex-row flex-nowrap justify-start"
+                      >
+                        <div v-html="femDevMeansListSvg"></div>
+                        <p>
+                          {{ femDevMeans.description }}
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-full lg:w-2/5 lg:self-end">
+                    <div class="">
+                      <img
+                        class="pt-16 lg:pt-0 px-24 md:px-48 lg:pr-0 lg:pl-28 xl:pl-72"
+                        src="../../assets/images/home/principles/principles.png"
+                        alt=""
+                      />
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div
-                v-if="false"
-                class="w-11/12 md:w-4/5 text-xl text-brand-green-800"
-              >
-                <p class="mt-8">
-                  Our expertise in gender equality and women's rights is broad,
-                  ranging from education and decent employment, to health and
-                  gender-based violence, to social norms and care work.
-                </p>
-
-                <p class="mt-8">
-                  We center feminist principles in all of our processes and ways
-                  of working. At FemDev, this means:
-                </p>
-
-                <ul class="ist-none list-outside ml-8">
-                  <li
-                    v-for="femDevMeans in femDevMeansList"
-                    :key="femDevMeans.description"
-                    class="mt-4 flex flex-row flex-nowrap justify-start"
-                  >
-                    <div v-html="femDevMeansListSvg"></div>
-                    <p>
-                      {{ femDevMeans.description }}
-                    </p>
-                  </li>
-                </ul>
               </div>
             </section>
           </div>
@@ -110,8 +57,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import ContentContainer from '../ui/ContentContainer.vue';
-
-import aboutImageSvgUrl from '../../assets/images/home/about.svg';
 
 export default defineComponent({
   components: {
@@ -165,7 +110,6 @@ export default defineComponent({
     return {
       femDevMeansList,
       femDevMeansListSvg,
-      aboutImageSvgUrl,
     };
   },
 });
