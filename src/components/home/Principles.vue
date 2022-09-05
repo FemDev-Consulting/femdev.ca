@@ -76,7 +76,7 @@
                 class="w-11/12 md:w-4/5 text-xl text-brand-green-800"
               >
                 <p class="mt-8">
-                  Our expertise in gender equality and women’s rights is broad,
+                  Our expertise in gender equality and women's rights is broad,
                   ranging from education and decent employment, to health and
                   gender-based violence, to social norms and care work.
                 </p>
