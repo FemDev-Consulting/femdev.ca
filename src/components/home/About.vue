@@ -5,34 +5,20 @@
         <div class="my-0 border-b-2 border-brand-green-700">
           <div class="w-full py-32 md:py-30">
             <section>
-              <div class="flex flex-col md:flex-row flex-nowrap items-end">
-                <div class="w-full md:w-2/3">
-                  <h2
-                    class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
-                  >
-                    About
-                  </h2>
-                  <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
+              <div class="w-full md:w-10/12 lg:w-10/12 xl:w-9/12">
+                <h2
+                  class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
+                >
+                  About
+                </h2>
+                <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
 
-                  <p
-                    class="text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
-                  >
-                    FemDev is a global development consulting firm providing
-                    feminist research, evaluation and analysis services.
-                  </p>
-                </div>
-                <div class="pt-20 md:pl-10 lg:pl-20 w-full md:w-1/3">
-                  <img
-                    class="hidden md:block"
-                    src="../../assets/images/home/about-wide.svg"
-                    alt=""
-                  />
-                  <img
-                    class="block md:hidden"
-                    src="../../assets/images/home/about-wide.svg"
-                    alt=""
-                  />
-                </div>
+                <p
+                  class="text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
+                >
+                  FemDev is a global development consulting firm providing
+                  feminist research, evaluation and analysis services.
+                </p>
               </div>
             </section>
           </div>
