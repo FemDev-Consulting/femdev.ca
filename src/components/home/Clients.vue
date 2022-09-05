@@ -30,6 +30,7 @@
                     class="flex justify-center bg-white py-10 lg:py-14 xl:py-20 px-10 md:px-16 w-full self-center"
                   >
                     <img
+                      loading="lazy"
                       class="h-12 md:h-14 lg:h-14 xl:h-14 object-contain"
                       :src="client.img"
                       alt=""

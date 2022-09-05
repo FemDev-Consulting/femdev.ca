@@ -49,6 +49,7 @@
                 <rect x="74" y="141" width="17" height="17" fill="white" />
               </svg>
               <img
+                loading="eager"
                 class="ml-7 h-5"
                 src="/images/brand/fd_logo_green.png"
                 alt=""

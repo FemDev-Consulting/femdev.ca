@@ -64,6 +64,7 @@
                 </div>
                 <div class="lg:w-4/12">
                   <img
+                    loading="lazy"
                     class="mt-10 px-10 md:px-52 lg:mt-0 lg:pl-32 lg:pr-0"
                     src="../../assets/images/workshop/workshop-logo.png"
                     alt=""

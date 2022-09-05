@@ -38,6 +38,7 @@
                   <div class="w-full lg:w-2/5 lg:self-end">
                     <div class="">
                       <img
+                        loading="lazy"
                         class="pt-16 lg:pt-0 px-24 md:px-48 lg:pr-0 lg:pl-28 xl:pl-72"
                         src="../../assets/images/home/principles/principles.png"
                         alt=""

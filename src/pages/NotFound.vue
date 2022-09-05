@@ -5,7 +5,7 @@
         <div class="flex flex-col md:flex-row-reverse md:items-center">
           <div class="md:w-2/5 xl:w-3/5">
             <div class="pb-20 pr-10 md:pt-0 md:px-0 md:pr-0 md:pb-0">
-              <img :src="errorImageSvgUrl" alt="" />
+              <img loading="lazy" :src="errorImageSvgUrl" alt="" />
             </div>
           </div>
           <div class="md:w-3/5 xl:w-2/5 md:pr-5">
