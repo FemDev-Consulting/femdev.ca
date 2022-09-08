@@ -20,7 +20,7 @@
                   </p>
 
                   <!-- Workshop info -->
-                  <div class="mt-5 text-xl">
+                  <div class="mt-12 text-xl">
                     <ul
                       class="marker:text-brand-pink-800 mt-1 ml-5 lg:flex list-disc list-inside text-xl"
                     >
@@ -35,7 +35,7 @@
                   </div>
 
                   <!-- Registration button -->
-                  <div class="mt-8">
+                  <div class="mt-12">
                     <ul class="list-none flex">
                       <li>
                         <a
@@ -64,6 +64,7 @@
                 </div>
                 <div class="lg:w-4/12">
                   <img
+                    loading="lazy"
                     class="mt-10 px-10 md:px-52 lg:mt-0 lg:pl-32 lg:pr-0"
                     src="../../assets/images/workshop/workshop-logo.png"
                     alt=""

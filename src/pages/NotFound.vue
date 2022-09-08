@@ -3,16 +3,18 @@
     <page-layout>
       <div class="mt-20 mb-20">
         <div class="flex flex-col md:flex-row-reverse md:items-center">
-          <div class="md:w-2/5 xl:w-1/2">
+          <div class="md:w-2/5 xl:w-3/5">
             <div class="pb-20 pr-10 md:pt-0 md:px-0 md:pr-0 md:pb-0">
-              <img :src="errorImageSvgUrl" alt="" />
+              <img loading="lazy" :src="errorImageSvgUrl" alt="" />
             </div>
           </div>
-          <div class="md:w-3/5 xl:w-1/2 md:pr-5">
+          <div class="md:w-3/5 xl:w-2/5 md:pr-5">
             <h1 class="text-8xl text-brand-green-800">
-              <span class="sr-only">Error</span> Oops!
+              <span class="sr-only">Error:</span> Oops!
             </h1>
-            <p class="mt-2 w-full md:w-4/5 text-3xl text-brand-green-600">
+            <p
+              class="mt-2 w-full md:w-4/5 xl:w-full text-3xl text-brand-green-600"
+            >
               Looks like this page is missing or some sort of catastrophic error
               occured.
             </p>
@@ -54,7 +56,7 @@ import { useHead } from '@vueuse/head';
 // Components
 import PageLayout from '../layouts/Page.vue';
 import ContentContainer from '../components/ui/ContentContainer.vue';
-import errorImageSvgUrl from '../assets/images/error/error.svg';
+import errorImageSvgUrl from '../assets/images/error/group.png';
 
 export default defineComponent({
   components: {

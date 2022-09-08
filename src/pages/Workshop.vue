@@ -192,7 +192,11 @@
             class="mt-10 lg:mt-0 lg:w-7/12 bg-brand-green-200 rounded-2xl lg:rounded-r-xl lg:rounded-l-none flex justify-center self-stretch"
           >
             <div class="px-20 sm:px-44 lg:pl-20 lg:pr-20 xl:pl-60 xl:pr-20">
-              <img src="../assets/images/workshop/workshop-logo.png" alt="" />
+              <img
+                loading="lazy"
+                src="../assets/images/workshop/workshop-logo.png"
+                alt=""
+              />
             </div>
           </div>
         </div>

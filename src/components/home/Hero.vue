@@ -21,6 +21,7 @@
               <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
                 <div class="pt-20">
                   <img
+                    loading="eager"
                     class=""
                     src="../../assets/images/home/hero/hero-one.png"
                     alt=""
