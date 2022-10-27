@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isProduction === false">
+  <div v-if="false">
     <!-- Only display the page banner if we aren't in prod -->
     <div class="bg-brand-green-900">
       <div class="py-5">
