@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 
-const Workshop = () => import('../pages/Workshop.vue');
 const Contact = () => import('../pages/Contact.vue');
 const NotFound = () => import('../pages/NotFound.vue');
 
@@ -17,11 +16,6 @@ export const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: Contact,
-    },
-    {
-      path: '/workshop',
-      name: 'workshop',
-      component: Workshop,
     },
     {
       path: '/404',
