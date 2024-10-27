@@ -14,8 +14,7 @@
               <p
                 class="w-11/12 md:w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
               >
-                We partner with organizations and governments to provide the
-                following types of services:
+              We offer a broad range of services to help our clients strengthen their gender equality and social justice work and drive transformative change.
               </p>
 
               <ul
@@ -73,7 +72,7 @@ export default defineComponent({
           `,
         title: 'Research',
         description:
-          'Applying feminist methodology to conduct research on gender equality and women’s rights issues',
+          'We design and conduct high-quality research with a focus on participatory, qualitative, and mixed-methods approaches, ensuring meaningful and comprehensive results.',
       },
       {
         svg: `
@@ -83,7 +82,7 @@ export default defineComponent({
           `,
         title: 'Evaluation',
         description:
-          'Evaluating development initiatives, including the design of instruments and indicators',
+          'We develop and enhance MEL frameworks, lead independent evaluations, and translate key findings into actionable strategies and recommendations that drive impact.',
       },
       {
         svg: `
@@ -93,7 +92,7 @@ export default defineComponent({
           `,
         title: 'Analysis',
         description:
-          'Conducting evidence reviews and landscape analysis of development issues, policies and trends',
+          'We provide rapid evidence reviews and conduct systematic analyses of development issues, policies, portfolios, and trends, helping clients make informed, strategic decisions. ',
       },
       {
         svg: `
@@ -110,7 +109,7 @@ export default defineComponent({
           `,
         title: 'Advocacy',
         description:
-          'Using evidence to engage stakeholders and advocate for social, institutional and policy change',
+          'We use evidence to engage diverse stakeholders, foster dialogue, and advocate for meaningful social, institutional, and policy changes.',
       },
       {
         svg: `
@@ -118,20 +117,19 @@ export default defineComponent({
             <path d="M46.54,58.75H33.25V49.34A19.57,19.57,0,0,0,51.56,29.85a1.25,1.25,0,1,0-2.5,0,17.07,17.07,0,0,1-15.81,17v-4a13.11,13.11,0,0,0,11.85-13v-14a13.1,13.1,0,0,0-26.2,0v14a13.11,13.11,0,0,0,11.85,13v4a17.07,17.07,0,0,1-15.81-17,1.25,1.25,0,0,0-2.5,0A19.57,19.57,0,0,0,30.75,49.34v9.41H17.46a1.25,1.25,0,0,0,0,2.5H46.54a1.25,1.25,0,0,0,0-2.5ZM21.4,29.85v-14a10.6,10.6,0,0,1,21.2,0v14a10.6,10.6,0,0,1-21.2,0Z"/></g>
           </svg>
           `,
-        title: 'Knowledge mobilization',
+        title: 'Knowledge Translation',
         description:
-          'Translating data and evidence into innovative knowledge and communications products (e.g., podcasts, policy briefs, videos, slide decks)',
+          'We transform complex data and evidence into accessible, compelling knowledge products tailored to diverse audiences, ensuring insights resonate and lead to action.',
       },
       {
         svg: `
-          <svg class="${serviceSvgClass}" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M95.2381 4.33331H4.7619C2.14286 4.33331 0 6.49165 0 9.12855V78.175C0 80.8131 2.14286 82.9702 4.7619 82.9702H39.2857V94.069H30.3571C29.3702 94.069 28.5714 94.875 28.5714 95.8678C28.5714 96.8607 29.3702 97.6666 30.3571 97.6666H69.7179C70.7048 97.6666 71.5036 96.8607 71.5036 95.8678C71.5036 94.875 70.7048 94.069 69.7179 94.069H60.7143V82.9702H95.2381C97.8571 82.9702 100 80.8119 100 78.175V9.12855C100 6.49165 97.8571 4.33331 95.2381 4.33331ZM4.7619 7.92974H95.2381C95.8833 7.92974 96.4286 8.47855 96.4286 9.12855V66.2524H3.57143V9.12855C3.57143 8.47855 4.11667 7.92974 4.7619 7.92974ZM57.1429 94.0702H42.8571V82.9714H57.1429V94.0702ZM95.2381 79.3738H4.7619C4.11667 79.3738 3.57143 78.825 3.57143 78.175V69.85H96.4286V78.175C96.4286 78.825 95.8833 79.3738 95.2381 79.3738Z"/>
-            <path d="M33.3331 57.3107H66.6665C67.1379 57.3107 67.5962 57.1191 67.9296 56.7845C68.2629 56.45 68.4522 55.9857 68.4522 55.5131C68.451 47.5786 63.5058 40.8262 56.5581 38.1607C59.2748 36.1345 61.0462 32.8917 61.0462 29.225C61.045 23.081 56.1022 18.1024 50.001 18.1012C43.8998 18.1024 38.9581 23.081 38.9558 29.225C38.9569 32.8917 40.726 36.1345 43.445 38.1607C36.4962 40.8262 31.551 47.5786 31.5498 55.5131C31.5498 55.9857 31.7403 56.45 32.0724 56.7845C32.4046 57.1191 32.8617 57.3107 33.3331 57.3107ZM44.7153 23.9024C46.0748 22.5381 47.9308 21.6976 49.9998 21.6976C52.0689 21.6976 53.9272 22.5369 55.2843 23.9024C56.6403 25.2691 57.4724 27.1393 57.4736 29.225C57.4724 31.3083 56.6403 33.1786 55.2843 34.5476C53.9248 35.9119 52.0689 36.7512 49.9998 36.7524C47.9308 36.7512 46.0736 35.9131 44.7165 34.5476C43.3605 33.1798 42.5284 31.3083 42.526 29.225C42.5272 27.1393 43.3605 25.2691 44.7153 23.9024ZM39.4772 44.9167C42.1772 42.2012 45.8855 40.5262 49.9998 40.5262C54.1141 40.5262 57.8224 42.2 60.5224 44.9167C62.82 47.2333 64.3569 50.2952 64.7641 53.7143H35.2367C35.6427 50.2952 37.1796 47.2345 39.4772 44.9167Z"/>
+          <svg class="${serviceSvgClass}" version="1.1" viewBox="0 0 1200 1200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="m997.45 421.45c-2.3438-208.36-167.11-380.53-375.1-392.02-110.53-6.1875-215.63 32.391-295.64 108.19-80.016 75.797-124.18 178.36-124.18 288.56 0 109.64 43.641 211.64 122.9 287.44 53.109 50.719 86.203 115.83 95.109 184.92-22.734 5.625-39.656 26.016-39.656 50.344v40.922c0 28.734 23.25 51.984 51.984 51.984h11.625l18.75 39.656h-43.266c-9.6562 0-17.25 7.8281-17.25 17.25 0 9.4688 7.8281 17.25 17.25 17.25h59.438l11.812 25.266c8.5312 18.188 26.906 29.812 47.109 29.812h112.17c20.016 0 38.531-11.625 47.109-29.812l11.812-25.266h62.016c9.6562 0 17.25-7.8281 17.25-17.25 0-9.4688-7.8281-17.25-17.25-17.25h-45.797l18.75-39.656h22.734c28.734 0 51.984-23.25 51.984-51.984v-40.922c0-24.375-16.922-44.719-39.656-50.344 8.9062-68.719 42.562-134.34 96-185.81 79.969-76.922 123.24-180.37 121.97-291.28zm-314.72 670.18c-0.1875 0.1875-0.1875 0.375-0.375 0.75l-16.172 34.359c-2.9062 6-8.9062 9.9844-15.656 9.9844h-112.17c-6.75 0-12.891-3.7969-15.656-9.9844l-16.172-34.359c0-0.1875-0.1875-0.375-0.1875-0.5625l-23.438-50.016h223.26zm101.62-102c0 9.6562-7.8281 17.25-17.25 17.25l-312.19 0.046875h-21.797c-9.6562 0-17.25-7.8281-17.25-17.25v-40.922c0-9.6562 7.8281-17.25 17.25-17.25h334.18c9.6562 0 17.25 7.8281 17.25 17.25v40.875zm-268.55-530.16h-68.906c-35.438 0-64.172-28.734-64.172-64.172s28.734-64.172 64.172-64.172h4.5469c35.438 0 64.172 28.734 64.172 64.172v64.172zm133.82 437.44h-99.094v-402.89h99.094zm95.109 0h-60.562v-402.89h68.906c54.562 0 98.906-44.344 98.906-98.906s-44.344-98.906-98.906-98.906h-4.5469c-54.562 0-98.906 44.344-98.906 98.906v64.172h-99.094v-64.172c0-54.562-44.344-98.906-98.906-98.906h-4.5469c-54.562 0-98.906 44.344-98.906 98.906s44.344 98.906 98.906 98.906h68.906v402.89h-60.562c-9.2812-77.812-46.359-151.45-105.8-208.36-72.375-69.281-112.17-162.37-112.17-262.36 0-100.55 40.172-194.21 113.25-263.44 73.078-69.281 169.08-104.2 270-98.719 189.47 10.5 339.84 167.63 342 357.79 1.0781 101.25-38.344 195.66-111.47 265.82-59.812 57.797-97.078 131.63-106.5 209.26zm-60.562-437.44v-64.172c0-35.438 28.734-64.172 64.172-64.172h4.5469c35.438 0 64.172 28.734 64.172 64.172s-28.734 64.172-64.172 64.172z"/>
           </svg>
           `,
-        title: 'Event facilitation',
+        title: 'Strategy',
         description:
-          'Facilitating in-person and online events, trainings and workshops that are accessible and engaging for participants',
+          'We support clients to integrate a stronger focus on gender equality and inclusion in their work, policies, and organizational practices, strengthening their commitment to transformative change.',
       },
     ];
 
