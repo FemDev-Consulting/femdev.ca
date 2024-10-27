@@ -17,11 +17,10 @@
           <section>
             <h2 class="sr-only">Contact form</h2>
             <p>
-              If forms aren't your thing, feel free to drop me a line at
+              If forms aren't your thing, feel free to drop us a line at
               <a class="underline" href="mailto:hello@hello.com"
                 >hello@femdev.ca</a
-              >. I'll respond within 48 hours, and am currently based in Ottawa,
-              Canada.
+              >. We will do our best to respond within 48 hours.
             </p>
             <contact-form />
           </section>
