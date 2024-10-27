@@ -8,7 +8,7 @@
               <h2
                 class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
               >
-                How we work
+                Our Approach
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
 
@@ -30,6 +30,7 @@
                       >
                         <div v-html="femDevMeansListSvg"></div>
                         <p>
+                          <span class="font-medium">{{ femDevMeans.category }}:</span>
                           {{ femDevMeans.description }}
                         </p>
                       </li>
@@ -87,24 +88,34 @@ export default defineComponent({
 
     const femDevMeansList = [
       {
+        category: 'Transformation',
         description:
-          'We are committed to transforming unequal systems and power relations using an intersectional lens',
+          'We are committed to advancing gender equality and social justice, driving transformative change within organizations, governments, and communities.',
       },
       {
+        category: 'Collaboration',
         description:
-          'We use non-extractive methods and accountable collaboration tools to co-construct knowledge with partners and communities',
+          'We partner closely with clients to foster mutual understanding, establish agreed-upon processes, and achieve impactful results.',
       },
       {
+        category: 'Co-Creation',
         description:
-          'We work in the open and are transparent about our values, processes and pricing',
+          'We use non-extractive research methods and tools to co-create knowledge with clients, partners, and communities.',
       },
       {
+        category: 'Intersectionality',
         description:
-          'We believe in designing research for action to support evidence-based decision making, policy making and social change',
+          'We recognize the intersectional nature of identities and inequalities in all our research, evaluation, and analysis.',
       },
       {
+        category: 'Action',
         description:
-          'We work flexibly and prioritize care (for ourselves and for others) in all our work',
+          'We design research to be relevant and actionable, supporting evidence-based policies, programs, and decision-making.',
+      },
+      {
+        category: 'Care',
+        description:
+          'We prioritize care for ourselves and others in all aspects of our work, ensuring personal well-being, mutual respect, and understanding.',
       },
     ];
 
