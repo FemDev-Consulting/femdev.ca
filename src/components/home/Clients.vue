@@ -8,15 +8,15 @@
               <h2
                 class="mb-2 tracking-wide text-brand-green-800 text-2xl sm:text-lg md:text-xl xl:text-2xl"
               >
-                Clients
+                Clients &amp; Partners
               </h2>
               <div class="h-1 w-8 mb-12 bg-brand-pink-900"></div>
 
               <p
                 class="w-4/5 text-brand-green-800 text-4xl sm:text-4xl md:text-5xl xl:text-6xl"
               >
-                We are proud to partner with organizations committed to
-                advancing gender equality and social justice
+                We are proud to work with clients and partners who are dedicated to
+                advancing gender equality and social justice.
               </p>
 
               <ul
