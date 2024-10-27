@@ -3,11 +3,11 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/resources/feminist-knowledge-translation/fillable-template.pdf"
+  to =   "/resources/feminist-knowledge-translation-fillable-template.pdf"
   status = 200
 
 [[redirects]]
-  from = "/resources/feminist-knowledge-translation/fillable-template.pdf"
-  to = "/resources/feminist-knowledge-translation-fillable-template.pdf"
-  status = 301
+  from = "/*"
+  to = "/index.html"
+  status = 200
