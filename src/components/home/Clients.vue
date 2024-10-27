@@ -20,7 +20,7 @@
               </p>
 
               <ul
-                class="mx-auto md:mx-0 mt-20 md:w-auto grid gap-2 grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
+                class="mx-auto md:mx-0 mt-20 md:w-auto grid gap-2 grid-cols-3 md:grid-cols-4 xl:grid-cols-6"
               >
                 <li v-for="client in clientList" :key="client.title">
                   <a
