@@ -3,6 +3,13 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/feminist-knowledge-translation"
+  to =   "/resources/feminist-knowledge-translation-fillable-brief.pdf"
+  status = 301
+  force = true
+
+
+[[redirects]]
   from = "/resources/feminist-knowledge-translation/fillable-template.pdf"
   to =   "/resources/feminist-knowledge-translation-fillable-template.pdf"
   status = 301
