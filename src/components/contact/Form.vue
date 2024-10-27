@@ -101,7 +101,7 @@
             name="full_name"
             id="full_name"
             autocomplete="name"
-            placeholder="Harley Quinn"
+            placeholder=""
             required
             class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           />
@@ -130,7 +130,7 @@
             name="email"
             type="email"
             autocomplete="email"
-            placeholder="harley.quinn@justiceleague.com"
+            placeholder=""
             required
             class="block w-full py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           />
@@ -160,7 +160,7 @@
             name="organization"
             type="text"
             autocomplete="organization"
-            placeholder="Suicide Squad"
+            placeholder=""
             class="block w-full py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           />
           <div
@@ -190,7 +190,7 @@
             id="message"
             name="message"
             rows="5"
-            placeholder="How can we help?"
+            placeholder=""
             required
             class="block w-full py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500 focus:border-brand-green-500 border-gray-500"
           >
