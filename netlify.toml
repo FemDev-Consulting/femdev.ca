@@ -5,7 +5,8 @@
 [[redirects]]
   from = "/resources/feminist-knowledge-translation/fillable-template.pdf"
   to =   "/resources/feminist-knowledge-translation-fillable-template.pdf"
-  status = 200
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/*"
